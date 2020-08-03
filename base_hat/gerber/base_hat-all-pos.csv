@@ -1,6 +1,0 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
-"C1","1uF","C_0805_2012Metric",53.000000,38.000000,270.000000,bottom
-"R1","10k","R_0805_2012Metric",54.000000,25.000000,90.000000,bottom
-"R2","10k","R_0805_2012Metric",51.000000,24.937500,90.000000,bottom
-"U1","DS3231MZ","SOIC-8_3.9x4.9mm_P1.27mm",54.000000,32.000000,270.000000,bottom
-"BT1","Battery_Cell","BatteryHolder_Keystone_1060_1x2032",55.880000,30.480000,90.000000,top

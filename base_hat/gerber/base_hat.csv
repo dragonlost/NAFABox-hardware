@@ -1,8 +1,0 @@
-"Id";"Référence";"Boîtier";"Quantité";"Désignation";"Fournisseur et réf";
-1;"MK8,MK7,MK6,MK5,MK4,MK3,MK2,MK1";"MountingHole_2.7mm_M2.5";8;"M2.5";;;
-2;"M1";"PinHeader_1x04_P2.54mm_Vertical";1;"Fan_4pin";;;
-3;"U1";"SOIC-8_3.9x4.9mm_P1.27mm";1;"DS3231MZ";;;
-4;"R2,R1";"R_0805_2012Metric";2;"10k";;;
-5;"C1";"C_0805_2012Metric";1;"1uF";;;
-6;"BT1";"BatteryHolder_Keystone_1060_1x2032";1;"Battery_Cell";;;
-7;"P1";"PinSocket_2x20_P2.54mm_Vertical";1;"Conn_02x20_Odd_Even";;;
