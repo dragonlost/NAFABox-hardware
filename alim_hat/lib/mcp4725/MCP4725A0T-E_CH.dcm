@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP4725A0T-E_CH
+D D/A Converter 12-Bit EEPROM I2C SOT23-6
+K
+F https://componentsearchengine.com/Datasheets/1/MCP4725A0T-E_CH.pdf
+$ENDCMP
+#
+#End Doc Library

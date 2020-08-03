@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\drago\Documents\kicad\hat_nafabox\base_hat\base_hat.sch</source>
+    <date>02/03/2020 21:10:44</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>15 nov 2012</date>
+        <source>base_hat.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C35165</field>
+        <field name="MF Part">C35165</field>
+        <field name="Manufacturer">BOOMELE</field>
+        <field name="Package">Through Hole</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AD464A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>DS3231MZ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C107410</field>
+        <field name="MF Part">DS3231MZ+TRL</field>
+        <field name="Manufacturer">Maxim Integrated</field>
+        <field name="Package">SOIC-8_150mil</field>
+      </fields>
+      <libsource lib="Timer_RTC" part="DS3231MZ" description="±5ppm, I2C Real-Time Clock SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5F2BA0</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Keystone_1060_1x2032</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C70377</field>
+        <field name="MF Part">CR2032-BS-6-1</field>
+        <field name="Manufacturer">Q&amp;J</field>
+        <field name="Package">SMD</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5F33F1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C165963</field>
+        <field name="MF Part">RT0805DRD0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6176B5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C165963</field>
+        <field name="MF Part">RT0805DRD0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E617E8C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C179466</field>
+        <field name="MF Part">0805ZC105KAT2A</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E620B66</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>Fan_4pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C86504</field>
+        <field name="MF Part">640456-4</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Package">Through Hole</field>
+      </fields>
+      <libsource lib="Motor" part="Fan_4pin" description="Fan, tacho output, PWM input, 4-pin connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5C326A</tstamp>
+    </comp>
+    <comp ref="MK4">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FC4F</tstamp>
+    </comp>
+    <comp ref="MK2">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FC19</tstamp>
+    </comp>
+    <comp ref="MK3">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FBEF</tstamp>
+    </comp>
+    <comp ref="MK1">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FB2E</tstamp>
+    </comp>
+    <comp ref="MK8">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5CBB2C</tstamp>
+    </comp>
+    <comp ref="MK7">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5CBB32</tstamp>
+    </comp>
+    <comp ref="MK6">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5CBB38</tstamp>
+    </comp>
+    <comp ref="MK5">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5CBB3E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Fan_Tacho_PWM">
+      <aliases>
+        <alias>Fan_CPU_4pin</alias>
+        <alias>Fan_4pin</alias>
+      </aliases>
+      <description>Fan, tacho output, PWM input, 4-pin connector</description>
+      <docs>http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf</docs>
+      <footprints>
+        <fp>FanPinHeader*P2.54mm*Vertical*</fp>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Fan_Tacho_PWM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+        <pin num="3" name="Tacho" type="passive"/>
+        <pin num="4" name="PWM" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer_RTC" part="DS3231MZ">
+      <description>±5ppm, I2C Real-Time Clock SOIC-8</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3231MZ</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="32KHZ" type="openCol"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="~INT~/SQW" type="openCol"/>
+        <pin num="4" name="~RST" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VBAT" type="power_in"/>
+        <pin num="7" name="SDA" type="BiDi"/>
+        <pin num="8" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue">
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole-Mechanical-alim_hate-rescue</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Motor.lib</uri>
+    </library>
+    <library logical="Timer_RTC">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Timer_RTC.lib</uri>
+    </library>
+    <library logical="base_hat-rescue">
+      <uri>C:\Users\drago\Documents\kicad\hat_nafabox\base_hat/base_hat-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(P1-Pad24)">
+      <node ref="P1" pin="24"/>
+    </net>
+    <net code="2" name="Net-(BT1-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="U1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="P1" pin="14"/>
+      <node ref="P1" pin="34"/>
+      <node ref="P1" pin="30"/>
+      <node ref="M1" pin="1"/>
+      <node ref="P1" pin="20"/>
+      <node ref="P1" pin="25"/>
+      <node ref="P1" pin="39"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="9"/>
+      <node ref="BT1" pin="2"/>
+    </net>
+    <net code="4" name="/1-wire">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="5" name="/UART_TX">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="6" name="/UART_RX">
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="7" name="/SDA">
+      <node ref="R1" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="8" name="Net-(P1-Pad26)">
+      <node ref="P1" pin="26"/>
+    </net>
+    <net code="9" name="Net-(P1-Pad28)">
+      <node ref="P1" pin="28"/>
+    </net>
+    <net code="10" name="Net-(P1-Pad35)">
+      <node ref="P1" pin="35"/>
+    </net>
+    <net code="11" name="Net-(P1-Pad38)">
+      <node ref="P1" pin="38"/>
+    </net>
+    <net code="12" name="Net-(P1-Pad40)">
+      <node ref="P1" pin="40"/>
+    </net>
+    <net code="13" name="Net-(P1-Pad19)">
+      <node ref="P1" pin="19"/>
+    </net>
+    <net code="14" name="Net-(P1-Pad21)">
+      <node ref="P1" pin="21"/>
+    </net>
+    <net code="15" name="Net-(P1-Pad23)">
+      <node ref="P1" pin="23"/>
+    </net>
+    <net code="16" name="/SCL">
+      <node ref="U1" pin="8"/>
+      <node ref="P1" pin="5"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="20" name="+3V3">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="17"/>
+    </net>
+    <net code="21" name="+5V">
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="2"/>
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(M1-Pad3)">
+      <node ref="M1" pin="3"/>
+    </net>
+    <net code="23" name="/GPIO12(PWM0)">
+      <node ref="P1" pin="32"/>
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="24" name="/GPIO5">
+      <node ref="P1" pin="29"/>
+    </net>
+    <net code="25" name="/GPIO17">
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="26" name="/GPIO27">
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="27" name="/GPIO22">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="28" name="/GPIO6">
+      <node ref="P1" pin="31"/>
+    </net>
+    <net code="29" name="/GPIO13(PWM1)">
+      <node ref="P1" pin="33"/>
+    </net>
+    <net code="30" name="/GPIO26">
+      <node ref="P1" pin="37"/>
+    </net>
+    <net code="31" name="/GPIO16">
+      <node ref="P1" pin="36"/>
+    </net>
+    <net code="32" name="/GPIO25">
+      <node ref="P1" pin="22"/>
+    </net>
+    <net code="33" name="/GPIO23">
+      <node ref="P1" pin="16"/>
+    </net>
+    <net code="34" name="/GPIO24">
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="35" name="/GPIO18">
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="36" name="Net-(P1-Pad27)">
+      <node ref="P1" pin="27"/>
+    </net>
+  </nets>
+</export>

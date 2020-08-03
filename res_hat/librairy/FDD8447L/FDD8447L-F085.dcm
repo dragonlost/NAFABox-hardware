@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDD8447L-F085
+D MOSFET 40V 50A N-Channel PowerTrench
+K
+F https://componentsearchengine.com/Datasheets/1/FDD8447L-F085.pdf
+$ENDCMP
+#
+#End Doc Library

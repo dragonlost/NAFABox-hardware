@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name FDD8447L-F085)(type Legacy)(uri ${KIPRJMOD}/librairy/FDD8447L/FDD8447L-F085.lib)(options "")(descr ""))
+  (lib (name 2920L500_16MR)(type Legacy)(uri ${KIPRJMOD}/librairy/fuse/2920L500_16MR.lib)(options "")(descr ""))
+  (lib (name INA219AIDR)(type Legacy)(uri ${KIPRJMOD}/librairy/ina219/INA219AIDR.lib)(options "")(descr ""))
+  (lib (name MCP4725A0T-E_CH)(type Legacy)(uri ${KIPRJMOD}/librairy/mcp4725/MCP4725A0T-E_CH.lib)(options "")(descr ""))
+  (lib (name UCC27324D)(type Legacy)(uri ${KIPRJMOD}/librairy/UCC27324D/UCC27324D.lib)(options "")(descr ""))
+  (lib (name 61400826021)(type Legacy)(uri ${KIPRJMOD}/librairy/double_usb/61400826021.lib)(options "")(descr ""))
+)

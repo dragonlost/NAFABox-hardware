@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MCP4725A0T-E_CH
+#/159281/193522/2.45/6/3/Integrated Circuit
+DEF MCP4725A0T-E_CH IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MCP4725A0T-E_CH" 950 200 50 H V L CNN
+F2 "SOT95P270X145-6N" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/MCP4725A0T-E_CH.pdf" 950 0 50 H I L CNN
+F4 "D/A Converter 12-Bit EEPROM I2C SOT23-6" 950 -100 50 H I L CNN "Description"
+F5 "1.45" 950 -200 50 H I L CNN "Height"
+F6 "579-MCP4725A0TECH" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP4725A0TECH" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MCP4725A0T-E/CH" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUT 1 0 0 200 R 50 50 0 0 O
+X VSS 2 0 -100 200 R 50 50 0 0 W
+X VDD 3 0 -200 200 R 50 50 0 0 W
+X A0 6 1100 0 200 L 50 50 0 0 U
+X SCL 5 1100 -100 200 L 50 50 0 0 U
+X SDA 4 1100 -200 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

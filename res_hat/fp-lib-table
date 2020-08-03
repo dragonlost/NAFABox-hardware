@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name librairy)(type KiCad)(uri ${KIPRJMOD}/librairy)(options "")(descr ""))
+  (lib (name double_usb)(type KiCad)(uri ${KIPRJMOD}/librairy/double_usb)(options "")(descr ""))
+  (lib (name FDD8447L)(type KiCad)(uri ${KIPRJMOD}/librairy/FDD8447L)(options "")(descr ""))
+  (lib (name fuse)(type KiCad)(uri ${KIPRJMOD}/librairy/fuse)(options "")(descr ""))
+  (lib (name ina219)(type KiCad)(uri ${KIPRJMOD}/librairy/ina219)(options "")(descr ""))
+  (lib (name mcp4725)(type KiCad)(uri ${KIPRJMOD}/librairy/mcp4725)(options "")(descr ""))
+  (lib (name UCC27324D)(type KiCad)(uri ${KIPRJMOD}/librairy/UCC27324D)(options "")(descr ""))
+  (lib (name rca)(type KiCad)(uri ${KIPRJMOD}/librairy/rca)(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UCC27324D
+D Texas Instruments UCC27324D, Dual MOSFET Power Driver 4.5A, 4.5  15 V, Non-Inverting, 8-Pin SOIC
+K
+F http://www.ti.com/lit/gpn/ucc27324
+$ENDCMP
+#
+#End Doc Library

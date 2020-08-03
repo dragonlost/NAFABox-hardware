@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2920L500_16MR
+D LITTELFUSE - 2920L500/16MR - FUSE, RESETTABLE PTC, 16VDC, 40A, SMD
+K
+F https://componentsearchengine.com/Datasheets/1/2920L500_16MR.pdf
+$ENDCMP
+#
+#End Doc Library

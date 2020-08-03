@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name alim_hate-rescue)(type Legacy)(uri ${KIPRJMOD}/alim_hate-rescue.lib)(options "")(descr ""))
+  (lib (name PDQE15-Q24-S5-D)(type Legacy)(uri ${KIPRJMOD}/lib/pdq/PDQE15-Q24-S5-D.lib)(options "")(descr ""))
+  (lib (name base_hat-rescue)(type Legacy)(uri ${KIPRJMOD}/base_hat-rescue.lib)(options "")(descr ""))
+)

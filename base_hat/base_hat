@@ -1,0 +1,8 @@
+Reference, Quantity, Value, Footprint, Datasheet, LCSC Part, MF Part, Manufacturer, Package
+BT1 ,1,"Battery_Cell","Battery:BatteryHolder_Keystone_1060_1x2032","~","C70377","CR2032-BS-6-1","Q&J","SMD"
+C1 ,1,"1uF","Capacitor_SMD:C_0805_2012Metric","~","C179466","0805ZC105KAT2A","AVX","0805"
+M1 ,1,"Fan_4pin","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","C86504","640456-4","TE Connectivity","Through Hole"
+MK4 MK2 MK3 MK1 MK8 MK7 MK6 MK5 ,8,"M2.5","MountingHole:MountingHole_2.7mm_M2.5",""
+P1 ,1,"Conn_02x20_Odd_Even","Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical","~","C35165","C35165","BOOMELE","Through Hole"
+R2 R1 ,2,"10k","Resistor_SMD:R_0805_2012Metric","~","C165963","RT0805DRD0710KL","YAGEO","0805"
+U1 ,1,"DS3231MZ","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","~","C107410","DS3231MZ+TRL","Maxim Integrated","SOIC-8_150mil"
