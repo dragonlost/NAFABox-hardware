@@ -1,6 +1,6 @@
 # NAFABox-hardware   
 
-[[_TOC_]]
+
 
 __Version francaise :__    
 
