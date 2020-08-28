@@ -1,0 +1,4 @@
+Comment,Designator,Footprint,LCSC Part Number
+RTC,U1,SOIC-8,C107410
+10k ohm,"R2,R1",805,C17902
+1 uF,C1,805,C179466

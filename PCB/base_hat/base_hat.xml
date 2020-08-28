@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\drago\Documents\kicad\hat_nafabox\base_hat\base_hat.sch</source>
-    <date>02/03/2020 21:10:44</date>
-    <tool>Eeschema (5.1.5)-3</tool>
+    <source>/home/sebastien/Documents/git_perso/NAFABox-hardware/PCB/base_hat/base_hat.sch</source>
+    <date>ven. 28 août 2020 18:07:10 CEST</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -19,89 +19,61 @@
     </sheet>
   </design>
   <components>
-    <comp ref="P1">
-      <value>Conn_02x20_Odd_Even</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C35165</field>
-        <field name="MF Part">C35165</field>
-        <field name="Manufacturer">BOOMELE</field>
-        <field name="Package">Through Hole</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="MK5">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>59AD464A</tstamp>
+      <tstamp>5E5CBB3E</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>DS3231MZ</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C107410</field>
-        <field name="MF Part">DS3231MZ+TRL</field>
-        <field name="Manufacturer">Maxim Integrated</field>
-        <field name="Package">SOIC-8_150mil</field>
-      </fields>
-      <libsource lib="Timer_RTC" part="DS3231MZ" description="±5ppm, I2C Real-Time Clock SOIC-8"/>
+    <comp ref="MK6">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E5F2BA0</tstamp>
+      <tstamp>5E5CBB38</tstamp>
     </comp>
-    <comp ref="BT1">
-      <value>Battery_Cell</value>
-      <footprint>Battery:BatteryHolder_Keystone_1060_1x2032</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C70377</field>
-        <field name="MF Part">CR2032-BS-6-1</field>
-        <field name="Manufacturer">Q&amp;J</field>
-        <field name="Package">SMD</field>
-      </fields>
-      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+    <comp ref="MK7">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E5F33F1</tstamp>
+      <tstamp>5E5CBB32</tstamp>
     </comp>
-    <comp ref="R2">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C165963</field>
-        <field name="MF Part">RT0805DRD0710KL</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="Package">0805</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+    <comp ref="MK8">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E6176B5</tstamp>
+      <tstamp>5E5CBB2C</tstamp>
     </comp>
-    <comp ref="R1">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C165963</field>
-        <field name="MF Part">RT0805DRD0710KL</field>
-        <field name="Manufacturer">YAGEO</field>
-        <field name="Package">0805</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+    <comp ref="MK1">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E617E8C</tstamp>
+      <tstamp>5834FB2E</tstamp>
     </comp>
-    <comp ref="C1">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC Part">C179466</field>
-        <field name="MF Part">0805ZC105KAT2A</field>
-        <field name="Manufacturer">AVX</field>
-        <field name="Package">0805</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+    <comp ref="MK3">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E620B66</tstamp>
+      <tstamp>5834FBEF</tstamp>
+    </comp>
+    <comp ref="MK2">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FC19</tstamp>
+    </comp>
+    <comp ref="MK4">
+      <value>M2.5</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5834FC4F</tstamp>
     </comp>
     <comp ref="M1">
       <value>Fan_4pin</value>
@@ -117,61 +89,93 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E5C326A</tstamp>
     </comp>
-    <comp ref="MK4">
-      <value>M2.5</value>
-      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
-      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C179466</field>
+        <field name="MF Part">0805ZC105KAT2A</field>
+        <field name="MPN">0805ZC105KAT2A</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5834FC4F</tstamp>
+      <tstamp>5E620B66</tstamp>
     </comp>
-    <comp ref="MK2">
-      <value>M2.5</value>
-      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
-      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C165963</field>
+        <field name="MF Part">RT0805DRD0710KL</field>
+        <field name="MPN">RT0805DRD0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5834FC19</tstamp>
+      <tstamp>5E617E8C</tstamp>
     </comp>
-    <comp ref="MK3">
-      <value>M2.5</value>
-      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
-      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C165963</field>
+        <field name="MF Part">RT0805DRD0710KL</field>
+        <field name="MPN">RT0805DRD0710KL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Package">0805</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5834FBEF</tstamp>
+      <tstamp>5E6176B5</tstamp>
     </comp>
-    <comp ref="MK1">
-      <value>M2.5</value>
-      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
-      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Keystone_1060_1x2032</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C70377</field>
+        <field name="MF Part">CR2032-BS-6-1</field>
+        <field name="Manufacturer">Q&amp;J</field>
+        <field name="Package">SMD</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5834FB2E</tstamp>
+      <tstamp>5E5F33F1</tstamp>
     </comp>
-    <comp ref="MK8">
-      <value>M2.5</value>
-      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
-      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+    <comp ref="U1">
+      <value>DS3231MZ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C107410</field>
+        <field name="MF Part">DS3231MZ+TRL</field>
+        <field name="MPN">DS3231MZ+TRL</field>
+        <field name="Manufacturer">Maxim Integrated</field>
+        <field name="Package">SOIC-8_150mil</field>
+      </fields>
+      <libsource lib="Timer_RTC" part="DS3231MZ" description="±5ppm, I2C Real-Time Clock SOIC-8"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E5CBB2C</tstamp>
+      <tstamp>5E5F2BA0</tstamp>
     </comp>
-    <comp ref="MK7">
-      <value>M2.5</value>
-      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
-      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
+    <comp ref="P1">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C35165</field>
+        <field name="MF Part">C35165</field>
+        <field name="Manufacturer">BOOMELE</field>
+        <field name="Package">Through Hole</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E5CBB32</tstamp>
-    </comp>
-    <comp ref="MK6">
-      <value>M2.5</value>
-      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
-      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E5CBB38</tstamp>
-    </comp>
-    <comp ref="MK5">
-      <value>M2.5</value>
-      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
-      <libsource lib="base_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E5CBB3E</tstamp>
+      <tstamp>59AD464A</tstamp>
     </comp>
   </components>
   <libparts>
@@ -328,153 +332,153 @@
   </libparts>
   <libraries>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
     <library logical="Motor">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Motor.lib</uri>
+      <uri>/usr/share/kicad/library/Motor.lib</uri>
     </library>
     <library logical="Timer_RTC">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Timer_RTC.lib</uri>
+      <uri>/usr/share/kicad/library/Timer_RTC.lib</uri>
     </library>
     <library logical="base_hat-rescue">
-      <uri>C:\Users\drago\Documents\kicad\hat_nafabox\base_hat/base_hat-rescue.lib</uri>
+      <uri>/home/sebastien/Documents/git_perso/NAFABox-hardware/PCB/base_hat/base_hat-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(P1-Pad24)">
-      <node ref="P1" pin="24"/>
+    <net code="1" name="GND">
+      <node ref="P1" pin="20"/>
+      <node ref="P1" pin="25"/>
+      <node ref="P1" pin="9"/>
+      <node ref="P1" pin="34"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="39"/>
+      <node ref="U1" pin="5"/>
+      <node ref="P1" pin="30"/>
+      <node ref="M1" pin="1"/>
+      <node ref="P1" pin="14"/>
+      <node ref="C1" pin="1"/>
+      <node ref="BT1" pin="2"/>
     </net>
-    <net code="2" name="Net-(BT1-Pad1)">
+    <net code="2" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(BT1-Pad1)">
       <node ref="U1" pin="6"/>
       <node ref="BT1" pin="1"/>
     </net>
-    <net code="3" name="GND">
-      <node ref="U1" pin="5"/>
-      <node ref="C1" pin="1"/>
-      <node ref="P1" pin="14"/>
-      <node ref="P1" pin="34"/>
-      <node ref="P1" pin="30"/>
-      <node ref="M1" pin="1"/>
-      <node ref="P1" pin="20"/>
-      <node ref="P1" pin="25"/>
-      <node ref="P1" pin="39"/>
-      <node ref="P1" pin="6"/>
-      <node ref="P1" pin="9"/>
-      <node ref="BT1" pin="2"/>
-    </net>
-    <net code="4" name="/1-wire">
-      <node ref="P1" pin="7"/>
-    </net>
-    <net code="5" name="/UART_TX">
-      <node ref="P1" pin="8"/>
-    </net>
-    <net code="6" name="/UART_RX">
+    <net code="6" name="Net-(P1-Pad10)">
       <node ref="P1" pin="10"/>
     </net>
-    <net code="7" name="/SDA">
-      <node ref="R1" pin="2"/>
-      <node ref="P1" pin="3"/>
-      <node ref="U1" pin="7"/>
+    <net code="7" name="Net-(P1-Pad11)">
+      <node ref="P1" pin="11"/>
     </net>
-    <net code="8" name="Net-(P1-Pad26)">
-      <node ref="P1" pin="26"/>
+    <net code="8" name="Net-(P1-Pad12)">
+      <node ref="P1" pin="12"/>
     </net>
-    <net code="9" name="Net-(P1-Pad28)">
-      <node ref="P1" pin="28"/>
+    <net code="9" name="Net-(P1-Pad13)">
+      <node ref="P1" pin="13"/>
     </net>
-    <net code="10" name="Net-(P1-Pad35)">
-      <node ref="P1" pin="35"/>
+    <net code="10" name="Net-(P1-Pad37)">
+      <node ref="P1" pin="37"/>
     </net>
-    <net code="11" name="Net-(P1-Pad38)">
-      <node ref="P1" pin="38"/>
-    </net>
-    <net code="12" name="Net-(P1-Pad40)">
-      <node ref="P1" pin="40"/>
-    </net>
-    <net code="13" name="Net-(P1-Pad19)">
-      <node ref="P1" pin="19"/>
-    </net>
-    <net code="14" name="Net-(P1-Pad21)">
-      <node ref="P1" pin="21"/>
-    </net>
-    <net code="15" name="Net-(P1-Pad23)">
-      <node ref="P1" pin="23"/>
-    </net>
-    <net code="16" name="/SCL">
-      <node ref="U1" pin="8"/>
-      <node ref="P1" pin="5"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="17" name="Net-(U1-Pad1)">
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="18" name="Net-(U1-Pad3)">
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="19" name="Net-(U1-Pad4)">
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="20" name="+3V3">
-      <node ref="C1" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="R2" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="P1" pin="1"/>
-      <node ref="P1" pin="17"/>
-    </net>
-    <net code="21" name="+5V">
+    <net code="11" name="+5V">
       <node ref="P1" pin="4"/>
       <node ref="P1" pin="2"/>
       <node ref="M1" pin="2"/>
     </net>
-    <net code="22" name="Net-(M1-Pad3)">
+    <net code="12" name="Net-(M1-Pad3)">
       <node ref="M1" pin="3"/>
     </net>
-    <net code="23" name="/GPIO12(PWM0)">
-      <node ref="P1" pin="32"/>
-      <node ref="M1" pin="4"/>
-    </net>
-    <net code="24" name="/GPIO5">
-      <node ref="P1" pin="29"/>
-    </net>
-    <net code="25" name="/GPIO17">
-      <node ref="P1" pin="11"/>
-    </net>
-    <net code="26" name="/GPIO27">
-      <node ref="P1" pin="13"/>
-    </net>
-    <net code="27" name="/GPIO22">
+    <net code="13" name="Net-(P1-Pad15)">
       <node ref="P1" pin="15"/>
     </net>
-    <net code="28" name="/GPIO6">
-      <node ref="P1" pin="31"/>
+    <net code="14" name="+3V3">
+      <node ref="U1" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="P1" pin="17"/>
     </net>
-    <net code="29" name="/GPIO13(PWM1)">
-      <node ref="P1" pin="33"/>
+    <net code="15" name="Net-(P1-Pad8)">
+      <node ref="P1" pin="8"/>
     </net>
-    <net code="30" name="/GPIO26">
-      <node ref="P1" pin="37"/>
+    <net code="16" name="Net-(P1-Pad35)">
+      <node ref="P1" pin="35"/>
     </net>
-    <net code="31" name="/GPIO16">
+    <net code="17" name="Net-(P1-Pad36)">
       <node ref="P1" pin="36"/>
     </net>
-    <net code="32" name="/GPIO25">
-      <node ref="P1" pin="22"/>
+    <net code="18" name="Net-(P1-Pad38)">
+      <node ref="P1" pin="38"/>
     </net>
-    <net code="33" name="/GPIO23">
+    <net code="19" name="Net-(P1-Pad40)">
+      <node ref="P1" pin="40"/>
+    </net>
+    <net code="20" name="/SCL">
+      <node ref="P1" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="21" name="Net-(P1-Pad7)">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="22" name="Net-(P1-Pad16)">
       <node ref="P1" pin="16"/>
     </net>
-    <net code="34" name="/GPIO24">
+    <net code="23" name="Net-(P1-Pad18)">
       <node ref="P1" pin="18"/>
     </net>
-    <net code="35" name="/GPIO18">
-      <node ref="P1" pin="12"/>
+    <net code="24" name="Net-(P1-Pad19)">
+      <node ref="P1" pin="19"/>
     </net>
-    <net code="36" name="Net-(P1-Pad27)">
+    <net code="25" name="Net-(P1-Pad21)">
+      <node ref="P1" pin="21"/>
+    </net>
+    <net code="26" name="Net-(P1-Pad22)">
+      <node ref="P1" pin="22"/>
+    </net>
+    <net code="27" name="Net-(P1-Pad23)">
+      <node ref="P1" pin="23"/>
+    </net>
+    <net code="28" name="Net-(P1-Pad24)">
+      <node ref="P1" pin="24"/>
+    </net>
+    <net code="29" name="Net-(P1-Pad26)">
+      <node ref="P1" pin="26"/>
+    </net>
+    <net code="30" name="Net-(P1-Pad27)">
       <node ref="P1" pin="27"/>
+    </net>
+    <net code="31" name="Net-(P1-Pad28)">
+      <node ref="P1" pin="28"/>
+    </net>
+    <net code="32" name="Net-(P1-Pad29)">
+      <node ref="P1" pin="29"/>
+    </net>
+    <net code="33" name="/SDA">
+      <node ref="U1" pin="7"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="34" name="Net-(P1-Pad31)">
+      <node ref="P1" pin="31"/>
+    </net>
+    <net code="35" name="/GPIO12(PWM0)">
+      <node ref="M1" pin="4"/>
+      <node ref="P1" pin="32"/>
+    </net>
+    <net code="36" name="Net-(P1-Pad33)">
+      <node ref="P1" pin="33"/>
     </net>
   </nets>
 </export>
