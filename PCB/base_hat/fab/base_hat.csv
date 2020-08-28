@@ -1,0 +1,4 @@
+Designator;Manufacturer Part Number or Seeed SKU;Qty;Link
+U1;DS3231MZ+;1;https://www.mouser.fr/datasheet/2/256/DS3231MPMB1-1514701.pdf
+R2,R1;RT0805DRD0710KL;2;https://www.mouser.fr/datasheet/2/447/PYu-RT_1-to-0.01_RoHS_L_11-1669912.pdf
+C1;0805ZC105KAT2A;1;https://www.mouser.fr/datasheet/2/40/X7RDielectric-777024.pdf
