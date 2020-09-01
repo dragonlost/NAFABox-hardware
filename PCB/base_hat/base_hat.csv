@@ -1,8 +1,0 @@
-Comment,Designator,Footprint,LCSC
-"Battery_Cell","BT1","Battery:BatteryHolder_Keystone_1060_1x2032",""
-"1uF","C1","Capacitor_SMD:C_0805_2012Metric",""
-"Fan_4pin","M1","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
-"M2.5","MK1,MK2,MK3,MK4,MK5,MK6,MK7,MK8","MountingHole:MountingHole_2.7mm_M2.5",""
-"Conn_02x20_Odd_Even","P1","Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical",""
-"10k","R1,R2","Resistor_SMD:R_0805_2012Metric",""
-"DS3231MZ","U1","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",""

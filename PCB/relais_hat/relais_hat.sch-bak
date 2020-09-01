@@ -201,8 +201,6 @@ NoConn ~ 2350 2100
 NoConn ~ 2350 2200
 NoConn ~ 2350 2700
 NoConn ~ 2350 2800
-NoConn ~ 1850 1800
-NoConn ~ 1850 1900
 NoConn ~ 1850 2000
 $Comp
 L power:+12V #PWR0106
