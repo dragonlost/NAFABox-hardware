@@ -19,6 +19,8 @@ __Attention :__ La plupart des modèles 3D présent dans de dossier __lib__ de c
 
 ## Les différentes cartes :
 
+Tout les schémas électronique sont disponible dans la Doc : https://github.com/dragonlost/NAFABox-hardware/tree/master/Doc/schema_pdf
+
 ### La carte de base :
 (base_hat)
 ![base_hat_top](https://github.com/dragonlost/NAFABox-hardware/raw/master/Doc/picture/base_hat_top.jpg) 
@@ -80,4 +82,16 @@ Elle contient :
 	- 2 connecteurs pour 2 capteurs D18B20 1wire (pin7 du RPI) afin de mesurer la température des résistances.
 	- Chaque résistance est pilotable en puissance via 2 mofset FDD844L-F085
 	- Il est posible via un jumper de sélectionner la tension d'alimentation des résistances entre l'entrée Jack de la carte d'alimentation (nomé: 12V) et l'entrée jack de la carte résistance ou du bornier de la carte d'alimentation (nomé: VCC)
+	
+	
+## La boite :
+
+Le boitier destiné à accueillir les différentes cartes a été concue comme les cartes afin d'être modulaire. Chaque carte possède donc sa propre pièce.    
+Les modèles 3D des cartes sont aussi disponibles afin de permettre à chacun de réaliser son propre boitier.
+
+Elle a été aussi concu afin d'être facilement imprimable sur des imprimantes de capacité d'impression de 20x20x20.    
+
+Les pièces ont été dessiné sous CATIA par __SUPAII__ puis publié en format STEP afin que chacun puisse les modifiés/convertir avec n'importe quel logiciel de CAO.    
+
+![res_hat_bottom](https://github.com/dragonlost/NAFABox-hardware/raw/master/Doc/picture/Iso_compil.jpg.jpg) 
 
