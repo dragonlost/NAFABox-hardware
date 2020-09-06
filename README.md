@@ -22,7 +22,7 @@ __Attention :__ La plupart des modèles 3D présent dans de dossier __lib__ de c
 Tout les schémas électronique sont disponible dans la Doc : https://github.com/dragonlost/NAFABox-hardware/tree/master/Doc/schema_pdf
 
 ### La carte de base :
-(base_hat)
+(base_hat)     
 ![base_hat_top](https://github.com/dragonlost/NAFABox-hardware/raw/master/Doc/picture/base_hat_top.jpg) 
 ![base_hat_bottom](https://github.com/dragonlost/NAFABox-hardware/raw/master/Doc/picture/base_hat_bottom.jpg) 
 
@@ -31,7 +31,7 @@ Cette carte contient principalement 2 parties :
 - un connecteur et emplacement pour un ventillateur de 30x30mm controlé en PWM par le Raspberry PI.  
 
 ### La carte d'alimentation :
-(alim_hat)
+(alim_hat)    
 ![alim_hat_top](https://github.com/dragonlost/NAFABox-hardware/raw/master/Doc/picture/alim_hat_top.jpg) 
 ![alim_hat_bottom](https://github.com/dragonlost/NAFABox-hardware/raw/master/Doc/picture/alim_hat_bottom.jpg) 
 
