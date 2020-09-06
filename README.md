@@ -93,5 +93,5 @@ Elle a été aussi concu afin d'être facilement imprimable sur des imprimantes 
 
 Les pièces ont été dessiné sous CATIA par __SUPAII__ puis publié en format STEP afin que chacun puisse les modifiés/convertir avec n'importe quel logiciel de CAO.    
 
-![res_hat_bottom](https://github.com/dragonlost/NAFABox-hardware/raw/master/Doc/picture/Iso_compil.jpg.jpg) 
+![Iso_compil](https://github.com/dragonlost/NAFABox-hardware/raw/master/Doc/picture/Iso_compil.jpg) 
 
