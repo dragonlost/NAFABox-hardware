@@ -84,7 +84,7 @@ Elle contient :
 	- Il est posible via un jumper de sélectionner la tension d'alimentation des résistances entre l'entrée Jack de la carte d'alimentation (nomé: 12V) et l'entrée jack de la carte résistance ou du bornier de la carte d'alimentation (nomé: VCC)
 	
 	
-## La boite :
+## Le Boitier :
 
 Le boitier destiné à accueillir les différentes cartes a été concue comme les cartes afin d'être modulaire. Chaque carte possède donc sa propre pièce.    
 Les modèles 3D des cartes sont aussi disponibles afin de permettre à chacun de réaliser son propre boitier.
