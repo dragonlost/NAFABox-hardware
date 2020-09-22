@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.6-c6e7f7d~87~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
@@ -2326,10 +2326,10 @@
       (net 10 "Net-(J11-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 27 "Net-(J11-Pad1)"))
-    (model ${KIPRJMOD}/lib/TSW-102-14-G-S.stp
-      (offset (xyz 0 -1.27 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2366,10 +2366,10 @@
       (net 9 "Net-(J10-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 29 "Net-(J10-Pad1)"))
-    (model ${KIPRJMOD}/lib/TSW-102-14-G-S.stp
-      (offset (xyz 0 -1.27 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2406,10 +2406,10 @@
       (net 28 "Net-(J6-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 "Net-(J6-Pad1)"))
-    (model ${KIPRJMOD}/lib/TSW-102-14-G-S.stp
-      (offset (xyz 0 -1.27 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2446,10 +2446,10 @@
       (net 26 "Net-(J4-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 7 "Net-(J4-Pad1)"))
-    (model ${KIPRJMOD}/lib/TSW-102-14-G-S.stp
-      (offset (xyz 0 -1.27 0))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
