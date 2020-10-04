@@ -415,18 +415,6 @@ F 3 "~" H 5650 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_BJT:S8050 Q2
-U 1 1 5E811C4B
-P 5050 4900
-F 0 "Q2" H 5240 4946 50  0000 L CNN
-F 1 "S8050" H 5240 4855 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 4825 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 5050 4900 50  0001 L CNN
-F 4 "C2146" H 5050 4900 50  0001 C CNN "LCSC"
-	1    5050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D2
 U 1 1 5E813F8E
 P 4750 4350
@@ -523,7 +511,6 @@ F 3 "" H 5150 5300 50  0001 C CNN
 	1    5150 5300
 	0    -1   -1   0   
 $EndComp
-Connection ~ 4850 4900
 Connection ~ 5150 5300
 Wire Wire Line
 	4950 4000 4950 3900
@@ -594,18 +581,6 @@ F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2550 5600 50  0001 C CNN
 F 3 "~" H 2550 5600 50  0001 C CNN
 	1    2550 5600
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Transistor_BJT:S8050 Q3
-U 1 1 5E87E470
-P 1950 7050
-F 0 "Q3" H 2140 7096 50  0000 L CNN
-F 1 "S8050" H 2140 7005 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2150 6975 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 1950 7050 50  0001 L CNN
-F 4 "C2146" H 1950 7050 50  0001 C CNN "LCSC"
-	1    1950 7050
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D3
@@ -704,7 +679,6 @@ F 3 "" H 2050 7450 50  0001 C CNN
 	1    2050 7450
 	0    -1   -1   0   
 $EndComp
-Connection ~ 1750 7050
 Connection ~ 2050 7450
 Wire Wire Line
 	1850 6150 1850 6050
@@ -763,18 +737,6 @@ F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2500 3650 50  0001 C CNN
 F 3 "~" H 2500 3650 50  0001 C CNN
 	1    2500 3650
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Transistor_BJT:S8050 Q1
-U 1 1 5E88AACF
-P 1900 5100
-F 0 "Q1" H 2090 5146 50  0000 L CNN
-F 1 "S8050" H 2090 5055 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2100 5025 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 1900 5100 50  0001 L CNN
-F 4 "C2146" H 1900 5100 50  0001 C CNN "LCSC"
-	1    1900 5100
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D1
@@ -873,7 +835,6 @@ F 3 "" H 2000 5500 50  0001 C CNN
 	1    2000 5500
 	0    -1   -1   0   
 $EndComp
-Connection ~ 1700 5100
 Connection ~ 2000 5500
 Wire Wire Line
 	1800 4200 1800 4100
@@ -943,18 +904,6 @@ F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5700 5700 50  0001 C CNN
 F 3 "~" H 5700 5700 50  0001 C CNN
 	1    5700 5700
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Transistor_BJT:S8050 Q4
-U 1 1 5E892F1E
-P 5100 7150
-F 0 "Q4" H 5290 7196 50  0000 L CNN
-F 1 "S8050" H 5290 7105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 7075 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 5100 7150 50  0001 L CNN
-F 4 "C2146" H 5100 7150 50  0001 C CNN "LCSC"
-	1    5100 7150
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D4
@@ -1053,7 +1002,6 @@ F 3 "" H 5200 7550 50  0001 C CNN
 	1    5200 7550
 	0    -1   -1   0   
 $EndComp
-Connection ~ 4900 7150
 Connection ~ 5200 7550
 Wire Wire Line
 	5000 6250 5000 6150
@@ -1434,4 +1382,52 @@ F 3 "" H 4900 2200 50  0001 C CNN
 $EndComp
 Text Label 4900 2300 2    50   ~ 0
 rpi_gnd
+$Comp
+L Device:Q_NPN_BEC Q1
+U 1 1 5F7C630D
+P 1900 5100
+F 0 "Q1" H 2090 5146 50  0000 L CNN
+F 1 "S8050" H 2090 5055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2100 5200 50  0001 C CNN
+F 3 "~" H 1900 5100 50  0001 C CNN
+	1    1900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q3
+U 1 1 5F7C7DFB
+P 1950 7050
+F 0 "Q3" H 2140 7096 50  0000 L CNN
+F 1 "S8050" H 2140 7005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2150 7150 50  0001 C CNN
+F 3 "~" H 1950 7050 50  0001 C CNN
+	1    1950 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q2
+U 1 1 5F7CC619
+P 5050 4900
+F 0 "Q2" H 5240 4946 50  0000 L CNN
+F 1 "S8050" H 5240 4855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 5000 50  0001 C CNN
+F 3 "~" H 5050 4900 50  0001 C CNN
+	1    5050 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1700 5100
+$Comp
+L Device:Q_NPN_BEC Q4
+U 1 1 5F7D1148
+P 5100 7150
+F 0 "Q4" H 5290 7196 50  0000 L CNN
+F 1 "S8050" H 5290 7105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 7250 50  0001 C CNN
+F 3 "~" H 5100 7150 50  0001 C CNN
+	1    5100 7150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 7150
+Connection ~ 1750 7050
+Connection ~ 4850 4900
 $EndSCHEMATC
