@@ -762,7 +762,7 @@ F 3 "" H 2100 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 2800 6600 0    50   ~ 0
-I2C adres : 1000011
+I2C adres (bin): 1000011\nI2C adres (hexa): 0x4d
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5E5E1153
@@ -954,7 +954,7 @@ F 3 "" H 2050 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 2750 4750 0    50   ~ 0
-I2C adres : 1000001
+I2C adres (bin): 1000001\nI2C adres (hex): 0x41
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5E5E11B3
@@ -1160,7 +1160,7 @@ F 3 "" H 4950 6500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 5550 6600 0    50   ~ 0
-I2C adres : 1000100
+I2C adres (bin): 1000100\nI2C adres (hex): 0x44
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5E5E1213
@@ -1353,7 +1353,7 @@ F 3 "" H 4850 4700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 5550 4800 0    50   ~ 0
-I2C adres : 1000010
+I2C adres (bin): 1001001\nI2C adres (hex): 0x49
 Wire Wire Line
 	5250 4750 4950 4750
 Wire Wire Line

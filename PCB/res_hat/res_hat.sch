@@ -378,7 +378,7 @@ F 3 "" H 9350 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 9900 4500 0    50   ~ 0
-I2C adres : 1000110
+I2C adres (bin): 1000110\nI2C adres (hex): 0x46
 Connection ~ 9650 4100
 Wire Wire Line
 	9650 4100 9650 4150
@@ -487,7 +487,7 @@ F 3 "" H 9100 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 9800 2300 0    50   ~ 0
-I2C adres : 1000101
+I2C adres (bin): 1000101\nI2C adres (hex): 0x45
 Text Label 9500 2200 0    50   ~ 0
 SDA
 Text Label 9400 2300 0    50   ~ 0
@@ -1016,9 +1016,9 @@ Wire Wire Line
 	5650 3000 5650 3200
 Connection ~ 5650 3000
 Text Notes 4650 3850 0    50   ~ 0
-I2C adres : 1100001
+I2C adres (bin): 1100001\nI2C adres (hex): 0x61
 Text Notes 4550 1550 0    50   ~ 0
-I2C adres : 1100000
+I2C adres (bin): 1100000\nI2C adres (hex): 0x60
 $Comp
 L power:GND #PWR0144
 U 1 1 5E7DD0D6
