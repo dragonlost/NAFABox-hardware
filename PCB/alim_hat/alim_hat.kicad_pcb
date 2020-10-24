@@ -385,10 +385,10 @@
       (net 4 +12V))
     (pad "" thru_hole circle (at -8 -10 90) (size 1.4 1.4) (drill 1) (layers *.Cu *.Mask))
     (pad "" thru_hole circle (at 3 -10 90) (size 1.4 1.4) (drill 1) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_AMASS.3dshapes/AMASS_XT30PW-M_1x02_P2.50mm_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model "${KIPRJMOD}/lib/Amass_XT30PW-M_pcb solder.stp"
+      (offset (xyz -2.5 4 2.6))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
