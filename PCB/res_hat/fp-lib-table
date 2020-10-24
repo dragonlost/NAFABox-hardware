@@ -7,4 +7,5 @@
   (lib (name mcp4725)(type KiCad)(uri ${KIPRJMOD}/lib/mcp4725)(options "")(descr ""))
   (lib (name UCC27324D)(type KiCad)(uri ${KIPRJMOD}/lib/UCC27324D)(options "")(descr ""))
   (lib (name rca)(type KiCad)(uri ${KIPRJMOD}/lib/rca)(options "")(descr ""))
+  (lib (name DS1050Z)(type KiCad)(uri ${KIPRJMOD}/lib/DS1050Z)(options "")(descr ""))
 )

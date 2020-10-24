@@ -5,4 +5,5 @@
   (lib (name MCP4725A0T-E_CH)(type Legacy)(uri ${KIPRJMOD}/lib/mcp4725/MCP4725A0T-E_CH.lib)(options "")(descr ""))
   (lib (name UCC27324D)(type Legacy)(uri ${KIPRJMOD}/lib/UCC27324D/UCC27324D.lib)(options "")(descr ""))
   (lib (name 61400826021)(type Legacy)(uri ${KIPRJMOD}/lib/double_usb/61400826021.lib)(options "")(descr ""))
+  (lib (name DS1050Z-010+)(type Legacy)(uri ${KIPRJMOD}/lib/DS1050Z/DS1050Z-010+.lib)(options "")(descr ""))
 )
