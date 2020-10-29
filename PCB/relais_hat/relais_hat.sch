@@ -1430,4 +1430,80 @@ $EndComp
 Connection ~ 4900 7150
 Connection ~ 1750 7050
 Connection ~ 4850 4900
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FAB551C
+P 5650 2850
+AR Path="/5E5C0CC9/5FAB551C" Ref="J?"  Part="1" 
+AR Path="/5FAB551C" Ref="J17"  Part="1" 
+F 0 "J17" V 5800 2900 50  0000 L CNN
+F 1 "Conn_01x02" V 5800 2350 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 2850 50  0001 C CNN
+F 3 "~" H 5650 2850 50  0001 C CNN
+	1    5650 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FAB9E19
+P 2500 3100
+AR Path="/5E5C0CC9/5FAB9E19" Ref="J?"  Part="1" 
+AR Path="/5FAB9E19" Ref="J15"  Part="1" 
+F 0 "J15" V 2650 3150 50  0000 L CNN
+F 1 "Conn_01x02" V 2650 2600 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2500 3100 50  0001 C CNN
+F 3 "~" H 2500 3100 50  0001 C CNN
+	1    2500 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FABE8AB
+P 2550 5050
+AR Path="/5E5C0CC9/5FABE8AB" Ref="J?"  Part="1" 
+AR Path="/5FABE8AB" Ref="J16"  Part="1" 
+F 0 "J16" V 2700 5100 50  0000 L CNN
+F 1 "Conn_01x02" V 2700 4550 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2550 5050 50  0001 C CNN
+F 3 "~" H 2550 5050 50  0001 C CNN
+	1    2550 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FAC338D
+P 5700 5100
+AR Path="/5E5C0CC9/5FAC338D" Ref="J?"  Part="1" 
+AR Path="/5FAC338D" Ref="J18"  Part="1" 
+F 0 "J18" V 5850 5150 50  0000 L CNN
+F 1 "Conn_01x02" V 5850 4600 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5700 5100 50  0001 C CNN
+F 3 "~" H 5700 5100 50  0001 C CNN
+	1    5700 5100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5650 3300 5650 3050
+Connection ~ 5650 3300
+Wire Wire Line
+	5750 3300 5750 3050
+Connection ~ 5750 3300
+Wire Wire Line
+	2500 3550 2500 3300
+Connection ~ 2500 3550
+Wire Wire Line
+	2600 3550 2600 3300
+Connection ~ 2600 3550
+Wire Wire Line
+	2550 5500 2550 5250
+Connection ~ 2550 5500
+Wire Wire Line
+	2650 5250 2650 5500
+Connection ~ 2650 5500
+Wire Wire Line
+	5700 5300 5700 5550
+Connection ~ 5700 5550
+Wire Wire Line
+	5800 5300 5800 5550
+Connection ~ 5800 5550
 $EndSCHEMATC

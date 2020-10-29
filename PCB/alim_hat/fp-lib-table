@@ -2,4 +2,5 @@
   (lib (name pdq)(type KiCad)(uri ${KIPRJMOD}/lib/pdq)(options "")(descr ""))
   (lib (name fuse)(type KiCad)(uri ${KIPRJMOD}/lib/fuse)(options "")(descr ""))
   (lib (name capa)(type KiCad)(uri ${KIPRJMOD}/lib/capa)(options "")(descr ""))
+  (lib (name rhf1201)(type KiCad)(uri ${KIPRJMOD}/rhf1201.pretty)(options "")(descr ""))
 )
