@@ -1435,8 +1435,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5FAB551C
 P 5650 2850
 AR Path="/5E5C0CC9/5FAB551C" Ref="J?"  Part="1" 
-AR Path="/5FAB551C" Ref="J?"  Part="1" 
-F 0 "J?" V 5800 2900 50  0000 L CNN
+AR Path="/5FAB551C" Ref="J17"  Part="1" 
+F 0 "J17" V 5800 2900 50  0000 L CNN
 F 1 "Conn_01x02" V 5800 2350 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 2850 50  0001 C CNN
 F 3 "~" H 5650 2850 50  0001 C CNN
@@ -1448,8 +1448,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5FAB9E19
 P 2500 3100
 AR Path="/5E5C0CC9/5FAB9E19" Ref="J?"  Part="1" 
-AR Path="/5FAB9E19" Ref="J?"  Part="1" 
-F 0 "J?" V 2650 3150 50  0000 L CNN
+AR Path="/5FAB9E19" Ref="J15"  Part="1" 
+F 0 "J15" V 2650 3150 50  0000 L CNN
 F 1 "Conn_01x02" V 2650 2600 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2500 3100 50  0001 C CNN
 F 3 "~" H 2500 3100 50  0001 C CNN
@@ -1461,8 +1461,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5FABE8AB
 P 2550 5050
 AR Path="/5E5C0CC9/5FABE8AB" Ref="J?"  Part="1" 
-AR Path="/5FABE8AB" Ref="J?"  Part="1" 
-F 0 "J?" V 2700 5100 50  0000 L CNN
+AR Path="/5FABE8AB" Ref="J16"  Part="1" 
+F 0 "J16" V 2700 5100 50  0000 L CNN
 F 1 "Conn_01x02" V 2700 4550 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2550 5050 50  0001 C CNN
 F 3 "~" H 2550 5050 50  0001 C CNN
@@ -1474,8 +1474,8 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5FAC338D
 P 5700 5100
 AR Path="/5E5C0CC9/5FAC338D" Ref="J?"  Part="1" 
-AR Path="/5FAC338D" Ref="J?"  Part="1" 
-F 0 "J?" V 5850 5150 50  0000 L CNN
+AR Path="/5FAC338D" Ref="J18"  Part="1" 
+F 0 "J18" V 5850 5150 50  0000 L CNN
 F 1 "Conn_01x02" V 5850 4600 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5700 5100 50  0001 C CNN
 F 3 "~" H 5700 5100 50  0001 C CNN

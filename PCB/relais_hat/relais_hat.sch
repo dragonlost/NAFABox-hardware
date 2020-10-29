@@ -112,7 +112,7 @@ L relais_hat-rescue:Mounting_Hole-Mechanical-alim_hate-rescue MK1
 U 1 1 5834FB2E
 P 4750 1050
 F 0 "MK1" H 4850 1096 50  0000 L CNN
-F 1 "M2.5" H 4850 1005 50  0000 L CNN
+F 1 "M3" H 4850 1005 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4750 1050 60  0001 C CNN
 F 3 "" H 4750 1050 60  0001 C CNN
 	1    4750 1050
@@ -123,7 +123,7 @@ L relais_hat-rescue:Mounting_Hole-Mechanical-alim_hate-rescue MK3
 U 1 1 5834FBEF
 P 5150 1050
 F 0 "MK3" H 5250 1096 50  0000 L CNN
-F 1 "M2.5" H 5250 1005 50  0000 L CNN
+F 1 "M3" H 5250 1005 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5150 1050 60  0001 C CNN
 F 3 "" H 5150 1050 60  0001 C CNN
 	1    5150 1050
@@ -134,7 +134,7 @@ L relais_hat-rescue:Mounting_Hole-Mechanical-alim_hate-rescue MK2
 U 1 1 5834FC19
 P 4750 1250
 F 0 "MK2" H 4850 1296 50  0000 L CNN
-F 1 "M2.5" H 4850 1205 50  0000 L CNN
+F 1 "M3" H 4850 1205 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4750 1250 60  0001 C CNN
 F 3 "" H 4750 1250 60  0001 C CNN
 	1    4750 1250
@@ -145,7 +145,7 @@ L relais_hat-rescue:Mounting_Hole-Mechanical-alim_hate-rescue MK4
 U 1 1 5834FC4F
 P 5150 1250
 F 0 "MK4" H 5250 1296 50  0000 L CNN
-F 1 "M2.5" H 5250 1205 50  0000 L CNN
+F 1 "M3" H 5250 1205 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 5150 1250 60  0001 C CNN
 F 3 "" H 5150 1250 60  0001 C CNN
 	1    5150 1250
