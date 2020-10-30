@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "rpi_hat_alim_resist"
-Date "2020-02-29"
-Rev "1.0"
+Date "2020-10-30"
+Rev "3.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -56,7 +56,7 @@ F 6 "512-FDD8447L_F085" H 8450 1950 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDD8447L_F085" H 8450 1850 50  0001 L CNN "Mouser Price/Stock"
 F 8 "ON Semiconductor" H 8450 1750 50  0001 L CNN "Manufacturer_Name"
 F 9 "FDD8447L-F085" H 8450 1650 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C99591" H 7800 2250 50  0001 C CNN "LCSC"
+F 10 "C99591 or C154314 " H 7800 2250 50  0001 C CNN "LCSC"
 	1    7800 2250
 	1    0    0    -1  
 $EndComp
@@ -74,7 +74,7 @@ F 6 "512-FDD8447L_F085" H 8450 2750 50  0001 L CNN "Mouser Part Number"
 F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDD8447L_F085" H 8450 2650 50  0001 L CNN "Mouser Price/Stock"
 F 8 "ON Semiconductor" H 8450 2550 50  0001 L CNN "Manufacturer_Name"
 F 9 "FDD8447L-F085" H 8450 2450 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "C99591" H 7800 3050 50  0001 C CNN "LCSC"
+F 10 "C99591 or C154314 " H 7800 3050 50  0001 C CNN "LCSC"
 	1    7800 3050
 	1    0    0    -1  
 $EndComp

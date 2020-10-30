@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 1206L020YR
-D Littelfuse 0.2A Resettable Surface Mount Fuses, 24V dc
-K
-F https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf
-$ENDCMP
-#
-#End Doc Library

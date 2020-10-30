@@ -474,4 +474,6 @@ F 3 "" H 3100 950 50  0000 C CNN
 	1    3100 950 
 	1    0    0    -1  
 $EndComp
+Text Notes 7050 2900 0    50   ~ 0
+I2C Adres (bin): 1101001\nI2C Adres (hex): 0x69
 $EndSCHEMATC
