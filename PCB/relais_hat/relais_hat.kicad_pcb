@@ -1920,10 +1920,10 @@
       (net 7 "Net-(J10-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 270) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 25 "Net-(J10-Pad1)"))
-    (model ${KIPRJMOD}/lib/TE_1776244-2.STEP
-      (offset (xyz 2.5 0 0))
+    (model "${KIPRJMOD}/lib/Header 200mil.STEP"
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1959,10 +1959,10 @@
       (net 43 "Net-(J16-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 270) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 44 "Net-(J16-Pad1)"))
-    (model ${KIPRJMOD}/lib/TE_1776244-2.STEP
-      (offset (xyz 2.5 0 0))
+    (model "${KIPRJMOD}/lib/Header 200mil.STEP"
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1998,10 +1998,10 @@
       (net 8 "Net-(J11-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 270) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 24 "Net-(J11-Pad1)"))
-    (model ${KIPRJMOD}/lib/TE_1776244-2.STEP
-      (offset (xyz 2.5 0 0))
+    (model "${KIPRJMOD}/lib/Header 200mil.STEP"
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -2037,10 +2037,10 @@
       (net 41 "Net-(J15-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 270) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 42 "Net-(J15-Pad1)"))
-    (model ${KIPRJMOD}/lib/TE_1776244-2.STEP
-      (offset (xyz 2.5 0 0))
+    (model "${KIPRJMOD}/lib/Header 200mil.STEP"
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 

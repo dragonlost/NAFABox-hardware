@@ -1,4 +1,4 @@
-16941093835968291
+16945889768059875
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75263,6 +75263,20 @@ Capacitor Polarised
 0
 2
 2
+fuse
+FUSC3216X100N
+1206_YR
+Fuse
+0
+2
+2
+fuse
+THRMC7451X160N
+2920L500
+Fuse
+0
+2
+2
 pdq
 PDQE15Q24S5D
 PDQE15-Q24-S5-D-1
@@ -75270,3 +75284,10 @@ Power Supply
 0
 6
 6
+relais
+REY5-19.0X15.0X15.0MM
+
+
+0
+5
+5

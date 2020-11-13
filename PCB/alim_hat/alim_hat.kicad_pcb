@@ -2268,15 +2268,15 @@
       (net 21 /gnd_no))
     (pad 2 thru_hole circle (at 5.08 0 270) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 21 /gnd_no))
-    (model ${KIPRJMOD}/lib/TE_1776244-2.STEP
-      (offset (xyz 2.5 0 0))
+    (model "${KIPRJMOD}/lib/Header 200mil.STEP"
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz -90 0 90))
     )
-    (model ${KIPRJMOD}/lib/TE_1776244-2.STEP
-      (offset (xyz 12.5 0 0))
+    (model "${KIPRJMOD}/lib/Header 200mil.STEP"
+      (offset (xyz 10.16 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -2455,7 +2455,6 @@
   (segment (start 269.357498 100.8625) (end 262.484998 107.735) (width 0.2) (layer In1.Cu) (net 1))
   (segment (start 262.484998 107.735) (end 260.261396 107.735) (width 0.2) (layer In1.Cu) (net 1))
   (segment (start 270.2275 100.8625) (end 269.357498 100.8625) (width 0.2) (layer In1.Cu) (net 1))
-  (segment (start 268.3525 101.91) (end 268.3325 101.93) (width 0.2) (layer F.Cu) (net 6))
   (segment (start 241.82 124.42) (end 234.75 132.99) (width 1) (layer F.Cu) (net 2))
   (segment (start 235 131.24) (end 241.82 124.42) (width 2) (layer F.Cu) (net 2))
   (segment (start 235 132.7) (end 235 131.24) (width 2) (layer F.Cu) (net 2))
@@ -2663,6 +2662,7 @@
   (segment (start 208.21 123.56) (end 208.27 123.5) (width 2) (layer F.Cu) (net 5))
   (segment (start 204.71 123.56) (end 208.21 123.56) (width 2) (layer F.Cu) (net 5))
   (segment (start 209.6 123.5) (end 213.2 127.1) (width 2) (layer F.Cu) (net 5))
+  (segment (start 268.3525 101.91) (end 268.3325 101.93) (width 0.2) (layer F.Cu) (net 6))
   (segment (start 264.454 125.616) (end 265.278 125.616) (width 0.2) (layer F.Cu) (net 6))
   (segment (start 263.565 126.505) (end 264.454 125.616) (width 0.2) (layer F.Cu) (net 6))
   (via (at 266.48 145.11) (size 0.9) (drill 0.6) (layers F.Cu B.Cu) (net 6))
