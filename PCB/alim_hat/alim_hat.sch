@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2020-10-30"
-Rev "4.0"
+Date "2020-11-18"
+Rev "4.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1313,7 +1313,7 @@ F 3 "~" H 9650 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 2350 9550 2350
+	8850 2250 9550 2250
 Wire Wire Line
 	8850 1850 9550 1850
 $Comp
@@ -1339,7 +1339,7 @@ F 4 "C17513" H 7300 2400 50  0001 C CNN "LCSC"
 	1    7300 2400
 	1    0    0    -1  
 $EndComp
-Text Label 8850 2350 2    50   ~ 0
+Text Label 8850 2250 2    50   ~ 0
 gnd_no
 $Comp
 L power:+12V #PWR0102
@@ -1386,19 +1386,6 @@ Wire Notes Line
 	6650 3250 6650 1600
 Text Notes 6700 1700 0    50   ~ 0
 Polarity protection
-$Comp
-L Connector:Jack-DC J?
-U 1 1 5F50DE31
-P 9850 2250
-AR Path="/5E5C0CC9/5F50DE31" Ref="J?"  Part="1" 
-AR Path="/5F50DE31" Ref="J2"  Part="1" 
-F 0 "J2" H 9907 2575 50  0000 C CNN
-F 1 "XT30" H 9907 2484 50  0000 C CNN
-F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" H 9900 2210 50  0001 C CNN
-F 3 "~" H 9900 2210 50  0001 C CNN
-	1    9850 2250
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Device:R R14
 U 1 1 5F99B8E4
@@ -1599,4 +1586,15 @@ Text Notes 2650 4050 0    50   ~ 0
 or\n1812L300/24SL
 Text Notes 2650 5900 0    50   ~ 0
 or\n1812L300/24SL
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5FB61870
+P 9750 2250
+F 0 "J2" H 9722 2132 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 9722 2223 50  0000 R CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" H 9750 2250 50  0001 C CNN
+F 3 "~" H 9750 2250 50  0001 C CNN
+	1    9750 2250
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
