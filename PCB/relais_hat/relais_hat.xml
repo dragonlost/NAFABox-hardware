@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/sebastien/Documents/git_perso/NAFABox-hardware/PCB/relais_hat/relais_hat.sch</source>
-    <date>mar. 01 sept. 2020 14:15:13 CEST</date>
-    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1</tool>
+    <date>dim. 27 déc. 2020 20:39:28 CET</date>
+    <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date>15 nov 2012</date>
+        <rev>3.0</rev>
+        <date>2020-10-30</date>
         <source>relais_hat.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -20,28 +20,28 @@
   </design>
   <components>
     <comp ref="MK1">
-      <value>M2.5</value>
+      <value>M3</value>
       <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
       <libsource lib="relais_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5834FB2E</tstamp>
     </comp>
     <comp ref="MK3">
-      <value>M2.5</value>
+      <value>M3</value>
       <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
       <libsource lib="relais_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5834FBEF</tstamp>
     </comp>
     <comp ref="MK2">
-      <value>M2.5</value>
+      <value>M3</value>
       <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
       <libsource lib="relais_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5834FC19</tstamp>
     </comp>
     <comp ref="MK4">
-      <value>M2.5</value>
+      <value>M3</value>
       <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
       <libsource lib="relais_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -94,14 +94,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E5E1213</tstamp>
     </comp>
-    <comp ref="K2">
-      <value>RELAY-HLS8L-DC3V-S-C(5P-19X15MM)</value>
-      <footprint>relais:REY5-19.0X15.0X15.0MM</footprint>
-      <datasheet>HLS8L-DC3V-S-C</datasheet>
-      <libsource lib="RELAY-HLS8L-DC3V-S-C_5P-19X15MM_" part="RELAY-HLS8L-DC3V-S-C(5P-19X15MM)" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E7F3FE1</tstamp>
-    </comp>
     <comp ref="A1">
       <value>Pololu_Breakout_DRV8825</value>
       <footprint>Module:Pololu_Breakout-16_15.2x20.3mm</footprint>
@@ -109,28 +101,6 @@
       <libsource lib="Driver_Motor" part="Pololu_Breakout_DRV8825" description="Pololu Breakout Board, Stepper Driver DRV8825"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E7FDFC7</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>XC6206P302MR-G</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C5446</field>
-      </fields>
-      <libsource lib="Regulator_Linear" part="XC6206PxxxMR" description="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E7FFDF3</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>1N4148W-7-F</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C60580</field>
-      </fields>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E80A7B7</tstamp>
     </comp>
     <comp ref="J5">
       <value>Screw_Terminal_01x02</value>
@@ -140,38 +110,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E80CAEB</tstamp>
     </comp>
-    <comp ref="Q2">
-      <value>S8050</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://www.unisonic.com.tw/datasheet/S8050.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C2146</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E811C4B</tstamp>
-    </comp>
     <comp ref="D2">
       <value>LED</value>
-      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C375461</field>
+        <field name="LCSC">C84256</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E813F8E</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>4.7k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C17673</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E81A0B5</tstamp>
     </comp>
     <comp ref="R6">
       <value>470</value>
@@ -184,58 +132,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E81A0BB</tstamp>
     </comp>
-    <comp ref="R10">
-      <value>47k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C102018</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E81A0C1</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C28323</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E81E12C</tstamp>
-    </comp>
-    <comp ref="K3">
-      <value>RELAY-HLS8L-DC3V-S-C(5P-19X15MM)</value>
-      <footprint>relais:REY5-19.0X15.0X15.0MM</footprint>
-      <datasheet>HLS8L-DC3V-S-C</datasheet>
-      <libsource lib="RELAY-HLS8L-DC3V-S-C_5P-19X15MM_" part="RELAY-HLS8L-DC3V-S-C(5P-19X15MM)" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87E458</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>XC6206P302MR-G</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C5446</field>
-      </fields>
-      <libsource lib="Regulator_Linear" part="XC6206PxxxMR" description="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87E45E</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>1N4148W-7-F</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C60580</field>
-      </fields>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87E464</tstamp>
-    </comp>
     <comp ref="J6">
       <value>Screw_Terminal_01x02</value>
       <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
@@ -244,38 +140,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E87E46A</tstamp>
     </comp>
-    <comp ref="Q3">
-      <value>S8050</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://www.unisonic.com.tw/datasheet/S8050.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C2146</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87E470</tstamp>
-    </comp>
     <comp ref="D3">
       <value>LED</value>
-      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C375461</field>
+        <field name="LCSC">C84256</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E87E476</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>4.7k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C17673</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87E47C</tstamp>
     </comp>
     <comp ref="R7">
       <value>470</value>
@@ -288,47 +162,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E87E482</tstamp>
     </comp>
-    <comp ref="R11">
-      <value>47k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C102018</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87E488</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C28323</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E87E48E</tstamp>
-    </comp>
-    <comp ref="K1">
-      <value>RELAY-HLS8L-DC3V-S-C(5P-19X15MM)</value>
-      <footprint>relais:REY5-19.0X15.0X15.0MM</footprint>
-      <datasheet>HLS8L-DC3V-S-C</datasheet>
-      <libsource lib="RELAY-HLS8L-DC3V-S-C_5P-19X15MM_" part="RELAY-HLS8L-DC3V-S-C(5P-19X15MM)" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88AAB7</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>1N4148W-7-F</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C60580</field>
-      </fields>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88AAC3</tstamp>
-    </comp>
     <comp ref="J4">
       <value>Screw_Terminal_01x02</value>
       <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
@@ -337,38 +170,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E88AAC9</tstamp>
     </comp>
-    <comp ref="Q1">
-      <value>S8050</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://www.unisonic.com.tw/datasheet/S8050.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C2146</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88AACF</tstamp>
-    </comp>
     <comp ref="D1">
       <value>LED</value>
-      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C375461</field>
+        <field name="LCSC">C84256</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E88AAD5</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>4.7k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C17673</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88AADB</tstamp>
     </comp>
     <comp ref="R5">
       <value>470</value>
@@ -381,58 +192,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E88AAE1</tstamp>
     </comp>
-    <comp ref="R9">
-      <value>47k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C102018</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88AAE7</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C28323</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88AAED</tstamp>
-    </comp>
-    <comp ref="K4">
-      <value>RELAY-HLS8L-DC3V-S-C(5P-19X15MM)</value>
-      <footprint>relais:REY5-19.0X15.0X15.0MM</footprint>
-      <datasheet>HLS8L-DC3V-S-C</datasheet>
-      <libsource lib="RELAY-HLS8L-DC3V-S-C_5P-19X15MM_" part="RELAY-HLS8L-DC3V-S-C(5P-19X15MM)" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E892F06</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>XC6206P302MR-G</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C5446</field>
-      </fields>
-      <libsource lib="Regulator_Linear" part="XC6206PxxxMR" description="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E892F0C</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>1N4148W-7-F</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C60580</field>
-      </fields>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E892F12</tstamp>
-    </comp>
     <comp ref="J7">
       <value>Screw_Terminal_01x02</value>
       <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
@@ -441,38 +200,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E892F18</tstamp>
     </comp>
-    <comp ref="Q4">
-      <value>S8050</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://www.unisonic.com.tw/datasheet/S8050.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C2146</field>
-      </fields>
-      <libsource lib="Transistor_BJT" part="S8050" description="0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E892F1E</tstamp>
-    </comp>
     <comp ref="D4">
       <value>LED</value>
-      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C375461</field>
+        <field name="LCSC">C84256</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E892F24</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>4.7k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C17673</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E892F2A</tstamp>
     </comp>
     <comp ref="R8">
       <value>470</value>
@@ -484,28 +221,6 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E892F30</tstamp>
-    </comp>
-    <comp ref="R12">
-      <value>47k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C102018</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E892F36</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C28323</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E892F3C</tstamp>
     </comp>
     <comp ref="J13">
       <value>DB9_Female</value>
@@ -551,17 +266,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9507E6</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>XC6206P302MR-G</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C5446</field>
-      </fields>
-      <libsource lib="Regulator_Linear" part="XC6206PxxxMR" description="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E88AABD</tstamp>
-    </comp>
     <comp ref="J14">
       <value>Conn_01x02</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
@@ -569,6 +273,316 @@
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E80EEC3</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAB551C</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAB9E19</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FABE8AB</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAC338D</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>UCC27324D</value>
+      <footprint>UCC27324D:SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/ucc27324</datasheet>
+      <fields>
+        <field name="Description">Texas Instruments UCC27324D, Dual MOSFET Power Driver 4.5A, 4.5  15 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="LCSC">C46427</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UCC27324D</field>
+        <field name="Mouser Part Number">595-UCC27324D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-UCC27324D</field>
+      </fields>
+      <libsource lib="UCC27324D" part="UCC27324D" description="Texas Instruments UCC27324D, Dual MOSFET Power Driver 4.5A, 4.5  15 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB41F5</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>FDD8447L-F085</value>
+      <footprint>FDD8447L:FDD8447LF085</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/FDD8447L-F085.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 40V 50A N-Channel PowerTrench</field>
+        <field name="Height">2.39</field>
+        <field name="LCSC">C99591 or C154314 </field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">FDD8447L-F085</field>
+        <field name="Mouser Part Number">512-FDD8447L_F085</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDD8447L_F085</field>
+      </fields>
+      <libsource lib="FDD8447L-F085" part="FDD8447L-F085" description="MOSFET 40V 50A N-Channel PowerTrench"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB420F</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB4216</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB421D</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB4224</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB422B</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB4232</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB4239</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB426F</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C28323</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB4276</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>UCC27324D</value>
+      <footprint>UCC27324D:SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/ucc27324</datasheet>
+      <fields>
+        <field name="Description">Texas Instruments UCC27324D, Dual MOSFET Power Driver 4.5A, 4.5  15 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="LCSC">C46427</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UCC27324D</field>
+        <field name="Mouser Part Number">595-UCC27324D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-UCC27324D</field>
+      </fields>
+      <libsource lib="UCC27324D" part="UCC27324D" description="Texas Instruments UCC27324D, Dual MOSFET Power Driver 4.5A, 4.5  15 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC0556</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FDD8447L-F085</value>
+      <footprint>FDD8447L:FDD8447LF085</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/FDD8447L-F085.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 40V 50A N-Channel PowerTrench</field>
+        <field name="Height">2.39</field>
+        <field name="LCSC">C99591 or C154314 </field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">FDD8447L-F085</field>
+        <field name="Mouser Part Number">512-FDD8447L_F085</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDD8447L_F085</field>
+      </fields>
+      <libsource lib="FDD8447L-F085" part="FDD8447L-F085" description="MOSFET 40V 50A N-Channel PowerTrench"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC0563</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>FDD8447L-F085</value>
+      <footprint>FDD8447L:FDD8447LF085</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/FDD8447L-F085.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 40V 50A N-Channel PowerTrench</field>
+        <field name="Height">2.39</field>
+        <field name="LCSC">C99591 or C154314 </field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">FDD8447L-F085</field>
+        <field name="Mouser Part Number">512-FDD8447L_F085</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDD8447L_F085</field>
+      </fields>
+      <libsource lib="FDD8447L-F085" part="FDD8447L-F085" description="MOSFET 40V 50A N-Channel PowerTrench"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC0570</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC0577</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC057E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC0585</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC058C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC0593</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC059A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC05D0</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C28323</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC05D7</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>FDD8447L-F085</value>
+      <footprint>FDD8447L:FDD8447LF085</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/FDD8447L-F085.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET 40V 50A N-Channel PowerTrench</field>
+        <field name="Height">2.39</field>
+        <field name="LCSC">C99591 or C154314 </field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">FDD8447L-F085</field>
+        <field name="Mouser Part Number">512-FDD8447L_F085</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDD8447L_F085</field>
+      </fields>
+      <libsource lib="FDD8447L-F085" part="FDD8447L-F085" description="MOSFET 40V 50A N-Channel PowerTrench"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB4202</tstamp>
     </comp>
   </components>
   <libparts>
@@ -776,40 +790,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="1N4148">
-      <aliases>
-        <alias>1N4448</alias>
-        <alias>1N4149</alias>
-        <alias>1N4151</alias>
-        <alias>1N914</alias>
-        <alias>BA243</alias>
-        <alias>BA244</alias>
-        <alias>BA282</alias>
-        <alias>BA283</alias>
-        <alias>BAV17</alias>
-        <alias>BAV18</alias>
-        <alias>BAV19</alias>
-        <alias>BAV20</alias>
-        <alias>BAV21</alias>
-        <alias>BAW75</alias>
-        <alias>BAW76</alias>
-        <alias>BAY93</alias>
-      </aliases>
-      <description>100V 0.15A standard switching diode, DO-35</description>
-      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
-      <footprints>
-        <fp>D*DO?35*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">1N4148</field>
-        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Driver_Motor" part="Pololu_Breakout_DRV8825">
       <description>Pololu Breakout Board, Stepper Driver DRV8825</description>
       <docs>https://www.pololu.com/product/2982</docs>
@@ -840,83 +820,51 @@
         <pin num="16" name="DIR" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="RELAY-HLS8L-DC3V-S-C_5P-19X15MM_" part="RELAY-HLS8L-DC3V-S-C(5P-19X15MM)">
-      <fields>
-        <field name="Reference">K</field>
-        <field name="Value">RELAY-HLS8L-DC3V-S-C(5P-19X15MM)</field>
-        <field name="Footprint">REY5-19.0X15.0X15.0MM</field>
-        <field name="Datasheet">HLS8L-DC3V-S-C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="COM" type="BiDi"/>
-        <pin num="2" name="V+" type="BiDi"/>
-        <pin num="3" name="V-" type="BiDi"/>
-        <pin num="4" name="NO" type="BiDi"/>
-        <pin num="5" name="NC" type="BiDi"/>
-      </pins>
-    </libpart>
-    <libpart lib="Regulator_Linear" part="APE8865N-12-HF-3">
-      <aliases>
-        <alias>APE8865N-15-HF-3</alias>
-        <alias>APE8865N-16-HF-3</alias>
-        <alias>APE8865N-17-HF-3</alias>
-        <alias>APE8865N-18-HF-3</alias>
-        <alias>APE8865N-19-HF-3</alias>
-        <alias>APE8865N-20-HF-3</alias>
-        <alias>APE8865N-21-HF-3</alias>
-        <alias>APE8865N-22-HF-3</alias>
-        <alias>APE8865N-23-HF-3</alias>
-        <alias>APE8865N-24-HF-3</alias>
-        <alias>APE8865N-25-HF-3</alias>
-        <alias>APE8865N-26-HF-3</alias>
-        <alias>APE8865N-27-HF-3</alias>
-        <alias>APE8865N-28-HF-3</alias>
-        <alias>APE8865N-29-HF-3</alias>
-        <alias>APE8865N-30-HF-3</alias>
-        <alias>APE8865N-31-HF-3</alias>
-        <alias>APE8865N-32-HF-3</alias>
-        <alias>APE8865N-33-HF-3</alias>
-        <alias>AP2127N-1.0</alias>
-        <alias>AP2127N-1.2</alias>
-        <alias>AP2127N-1.5</alias>
-        <alias>AP2127N-1.8</alias>
-        <alias>AP2127N-2.5</alias>
-        <alias>AP2127N-2.8</alias>
-        <alias>AP2127N-3.0</alias>
-        <alias>AP2127N-3.3</alias>
-        <alias>XC6206PxxxMR</alias>
-      </aliases>
-      <description>300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23</description>
-      <docs>http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">APE8865N-12-HF-3</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VO" type="power_out"/>
-        <pin num="3" name="VI" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_BJT" part="S8050">
-      <description>0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92</description>
-      <docs>http://www.unisonic.com.tw/datasheet/S8050.pdf</docs>
-      <footprints>
-        <fp>TO?92*</fp>
-      </footprints>
+    <libpart lib="FDD8447L-F085" part="FDD8447L-F085">
+      <description>MOSFET 40V 50A N-Channel PowerTrench</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/FDD8447L-F085.pdf</docs>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">S8050</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Value">FDD8447L-F085</field>
+        <field name="Footprint">FDD8447LF085</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/FDD8447L-F085.pdf</field>
+        <field name="Description">MOSFET 40V 50A N-Channel PowerTrench</field>
+        <field name="Height">2.39</field>
+        <field name="Mouser Part Number">512-FDD8447L_F085</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=512-FDD8447L_F085</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">FDD8447L-F085</field>
       </fields>
       <pins>
-        <pin num="1" name="E" type="passive"/>
-        <pin num="2" name="B" type="input"/>
-        <pin num="3" name="C" type="passive"/>
+        <pin num="1" name="G" type="unspc"/>
+        <pin num="2" name="D" type="unspc"/>
+        <pin num="3" name="S" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="UCC27324D" part="UCC27324D">
+      <description>Texas Instruments UCC27324D, Dual MOSFET Power Driver 4.5A, 4.5  15 V, Non-Inverting, 8-Pin SOIC</description>
+      <docs>http://www.ti.com/lit/gpn/ucc27324</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">UCC27324D</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/ucc27324</field>
+        <field name="Description">Texas Instruments UCC27324D, Dual MOSFET Power Driver 4.5A, 4.5  15 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">595-UCC27324D</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-UCC27324D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">UCC27324D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N/A_1" type="unspc"/>
+        <pin num="2" name="INA" type="unspc"/>
+        <pin num="3" name="GND" type="unspc"/>
+        <pin num="4" name="INB" type="unspc"/>
+        <pin num="5" name="OUTB" type="unspc"/>
+        <pin num="6" name="VDD" type="unspc"/>
+        <pin num="7" name="OUTA" type="unspc"/>
+        <pin num="8" name="N/A_2" type="unspc"/>
       </pins>
     </libpart>
     <libpart lib="relais_hat-rescue" part="Mounting_Hole-Mechanical-alim_hate-rescue">
@@ -940,141 +888,136 @@
     <library logical="Device">
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
-    <library logical="Diode">
-      <uri>/usr/share/kicad/library/Diode.lib</uri>
-    </library>
     <library logical="Driver_Motor">
       <uri>/usr/share/kicad/library/Driver_Motor.lib</uri>
     </library>
-    <library logical="RELAY-HLS8L-DC3V-S-C_5P-19X15MM_">
-      <uri>/home/sebastien/Documents/git_perso/NAFABox-hardware/PCB/relais_hat/lib/relais/RELAY-HLS8L-DC3V-S-C_5P-19X15MM_.lib</uri>
+    <library logical="FDD8447L-F085">
+      <uri>/home/sebastien/Documents/git_perso/NAFABox-hardware/PCB/relais_hat/lib/FDD8447L/FDD8447L-F085.lib</uri>
     </library>
-    <library logical="Regulator_Linear">
-      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
-    </library>
-    <library logical="Transistor_BJT">
-      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    <library logical="UCC27324D">
+      <uri>/home/sebastien/Documents/git_perso/NAFABox-hardware/PCB/relais_hat/lib/UCC27324D/UCC27324D.lib</uri>
     </library>
     <library logical="relais_hat-rescue">
       <uri>/home/sebastien/Documents/git_perso/NAFABox-hardware/PCB/relais_hat/relais_hat-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(D4-Pad2)">
-      <node ref="R8" pin="2"/>
-      <node ref="D4" pin="2"/>
-    </net>
-    <net code="2" name="Net-(Q4-Pad2)">
-      <node ref="R12" pin="1"/>
+    <net code="1" name="GND">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
       <node ref="R4" pin="2"/>
-      <node ref="Q4" pin="2"/>
-    </net>
-    <net code="3" name="/GPIO23">
-      <node ref="P1" pin="16"/>
-      <node ref="R4" pin="1"/>
-    </net>
-    <net code="4" name="Net-(J10-Pad2)">
-      <node ref="J7" pin="2"/>
-      <node ref="J10" pin="2"/>
-      <node ref="K4" pin="1"/>
-    </net>
-    <net code="5" name="Net-(K4-Pad5)">
-      <node ref="K4" pin="5"/>
-    </net>
-    <net code="6" name="Net-(J10-Pad1)">
-      <node ref="J10" pin="1"/>
-      <node ref="K4" pin="4"/>
-      <node ref="J7" pin="1"/>
-    </net>
-    <net code="7" name="GND">
-      <node ref="J14" pin="1"/>
-      <node ref="J2" pin="3"/>
-      <node ref="U1" pin="1"/>
-      <node ref="R10" pin="2"/>
+      <node ref="R3" pin="1"/>
       <node ref="C2" pin="2"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="R9" pin="2"/>
       <node ref="C1" pin="2"/>
-      <node ref="Q3" pin="1"/>
-      <node ref="J3" pin="2"/>
-      <node ref="U3" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J13" pin="5"/>
+      <node ref="A1" pin="1"/>
+      <node ref="A1" pin="7"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
       <node ref="J3" pin="7"/>
-      <node ref="C5" pin="2"/>
       <node ref="J3" pin="6"/>
       <node ref="J3" pin="3"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J12" pin="3"/>
-      <node ref="A1" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="J13" pin="5"/>
-      <node ref="R12" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="Q1" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C5" pin="2"/>
       <node ref="C4" pin="2"/>
-      <node ref="A1" pin="7"/>
-      <node ref="Q4" pin="1"/>
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="8" name="Net-(K1-Pad5)">
-      <node ref="K1" pin="5"/>
-    </net>
-    <net code="9" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1"/>
-      <node ref="K4" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="D8" pin="1"/>
-    </net>
-    <net code="10" name="Net-(D4-Pad1)">
-      <node ref="Q4" pin="3"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D8" pin="2"/>
-      <node ref="K4" pin="3"/>
-    </net>
-    <net code="11" name="Net-(Q1-Pad2)">
-      <node ref="Q1" pin="2"/>
-      <node ref="R9" pin="1"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="12" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
-      <node ref="D5" pin="2"/>
-      <node ref="K1" pin="3"/>
-      <node ref="Q1" pin="3"/>
-    </net>
-    <net code="13" name="Net-(J4-Pad2)">
-      <node ref="J4" pin="2"/>
-      <node ref="J8" pin="2"/>
-      <node ref="K1" pin="1"/>
-    </net>
-    <net code="14" name="Net-(J4-Pad1)">
-      <node ref="J8" pin="1"/>
-      <node ref="K1" pin="4"/>
-      <node ref="J4" pin="1"/>
-    </net>
-    <net code="15" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1"/>
-      <node ref="K1" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="D5" pin="1"/>
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="16" name="Net-(K3-Pad5)">
-      <node ref="K3" pin="5"/>
-    </net>
-    <net code="17" name="Net-(Q3-Pad2)">
+      <node ref="IC1" pin="3"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R12" pin="2"/>
       <node ref="R11" pin="1"/>
-      <node ref="R3" pin="2"/>
-      <node ref="Q3" pin="2"/>
+      <node ref="R13" pin="1"/>
     </net>
-    <net code="18" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="R5" pin="2"/>
+    <net code="2" name="Net-(IC2-Pad7)">
+      <node ref="R5" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="R13" pin="2"/>
     </net>
-    <net code="19" name="/GPIO17">
-      <node ref="R1" pin="1"/>
+    <net code="3" name="/GPIO17">
       <node ref="P1" pin="11"/>
+      <node ref="IC2" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q3-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J11-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J17" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="7" name="+3V3">
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="17"/>
+    </net>
+    <net code="8" name="Net-(Q1-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(IC2-Pad8)">
+      <node ref="IC2" pin="8"/>
+    </net>
+    <net code="13" name="/UART_RX_NanopiM4">
+      <node ref="P1" pin="21"/>
+    </net>
+    <net code="14" name="/rpi_gnd">
+      <node ref="J14" pin="2"/>
+      <node ref="P1" pin="14"/>
+      <node ref="P1" pin="20"/>
+      <node ref="P1" pin="25"/>
+      <node ref="P1" pin="9"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="39"/>
+      <node ref="P1" pin="34"/>
+      <node ref="P1" pin="30"/>
+    </net>
+    <net code="15" name="/GPIO27">
+      <node ref="P1" pin="13"/>
+      <node ref="A1" pin="16"/>
+    </net>
+    <net code="16" name="/GPIO25">
+      <node ref="P1" pin="22"/>
+      <node ref="A1" pin="15"/>
+    </net>
+    <net code="17" name="/UART_TX_NanopiM4">
+      <node ref="P1" pin="19"/>
+    </net>
+    <net code="18" name="Net-(P1-Pad36)">
+      <node ref="P1" pin="36"/>
+    </net>
+    <net code="19" name="Net-(P1-Pad37)">
+      <node ref="P1" pin="37"/>
     </net>
     <net code="20" name="Net-(P1-Pad35)">
       <node ref="P1" pin="35"/>
@@ -1100,209 +1043,192 @@
     <net code="27" name="Net-(A1-Pad9)">
       <node ref="A1" pin="9"/>
     </net>
-    <net code="28" name="+3V3">
-      <node ref="J12" pin="1"/>
-      <node ref="J1" pin="1"/>
-      <node ref="P1" pin="17"/>
-      <node ref="J2" pin="1"/>
-      <node ref="P1" pin="1"/>
+    <net code="28" name="/GPIO18">
+      <node ref="R12" pin="1"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="P1" pin="12"/>
     </net>
-    <net code="29" name="Net-(P1-Pad37)">
-      <node ref="P1" pin="37"/>
+    <net code="29" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R10" pin="1"/>
     </net>
-    <net code="30" name="Net-(A1-Pad12)">
-      <node ref="A1" pin="12"/>
-      <node ref="J12" pin="2"/>
+    <net code="30" name="Net-(J16-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="J16" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="J9" pin="1"/>
     </net>
-    <net code="31" name="Net-(A1-Pad11)">
-      <node ref="A1" pin="11"/>
-      <node ref="J2" pin="2"/>
+    <net code="31" name="Net-(J10-Pad1)">
+      <node ref="J7" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="J18" pin="1"/>
+      <node ref="J10" pin="1"/>
     </net>
-    <net code="32" name="Net-(A1-Pad10)">
-      <node ref="A1" pin="10"/>
-      <node ref="J1" pin="2"/>
+    <net code="32" name="Net-(J10-Pad2)">
+      <node ref="J18" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="J10" pin="2"/>
     </net>
-    <net code="33" name="/rpi_gnd">
-      <node ref="P1" pin="20"/>
-      <node ref="P1" pin="14"/>
-      <node ref="P1" pin="25"/>
-      <node ref="P1" pin="34"/>
-      <node ref="P1" pin="30"/>
-      <node ref="P1" pin="39"/>
-      <node ref="J14" pin="2"/>
-      <node ref="P1" pin="9"/>
-      <node ref="P1" pin="6"/>
+    <net code="33" name="Net-(J16-Pad2)">
+      <node ref="J9" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="J16" pin="2"/>
+      <node ref="J6" pin="2"/>
     </net>
-    <net code="34" name="+5V">
-      <node ref="P1" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U2" pin="3"/>
-      <node ref="P1" pin="4"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U3" pin="3"/>
+    <net code="34" name="Net-(J11-Pad1)">
+      <node ref="J17" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J11" pin="1"/>
     </net>
-    <net code="35" name="/GPIO27">
-      <node ref="P1" pin="13"/>
-      <node ref="A1" pin="16"/>
+    <net code="35" name="Net-(J15-Pad1)">
+      <node ref="Q3" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J15" pin="1"/>
+      <node ref="J4" pin="1"/>
     </net>
-    <net code="36" name="/GPIO25">
-      <node ref="A1" pin="15"/>
-      <node ref="P1" pin="22"/>
+    <net code="36" name="Net-(J15-Pad2)">
+      <node ref="J15" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="J4" pin="2"/>
     </net>
-    <net code="37" name="/UART_RX_NanopiM4">
-      <node ref="P1" pin="21"/>
+    <net code="37" name="Net-(IC2-Pad5)">
+      <node ref="R14" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="IC2" pin="5"/>
     </net>
-    <net code="38" name="/UART_TX_NanopiM4">
-      <node ref="P1" pin="19"/>
+    <net code="38" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R10" pin="2"/>
     </net>
-    <net code="39" name="Net-(P1-Pad36)">
-      <node ref="P1" pin="36"/>
+    <net code="39" name="/GPIO23">
+      <node ref="IC1" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="P1" pin="16"/>
     </net>
-    <net code="40" name="Net-(A1-Pad4)">
-      <node ref="A1" pin="4"/>
-      <node ref="J13" pin="1"/>
+    <net code="40" name="/GPIO22">
+      <node ref="IC1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P1" pin="15"/>
     </net>
-    <net code="41" name="Net-(J13-Pad9)">
-      <node ref="J13" pin="9"/>
+    <net code="41" name="Net-(IC1-Pad7)">
+      <node ref="R3" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="R7" pin="1"/>
     </net>
-    <net code="42" name="Net-(J13-Pad8)">
-      <node ref="J13" pin="8"/>
-    </net>
-    <net code="43" name="Net-(J13-Pad7)">
-      <node ref="J13" pin="7"/>
-    </net>
-    <net code="44" name="Net-(J13-Pad6)">
-      <node ref="J13" pin="6"/>
-    </net>
-    <net code="45" name="Net-(A1-Pad6)">
-      <node ref="J13" pin="4"/>
-      <node ref="A1" pin="6"/>
-    </net>
-    <net code="46" name="Net-(A1-Pad5)">
-      <node ref="A1" pin="5"/>
-      <node ref="J13" pin="3"/>
-    </net>
-    <net code="47" name="Net-(A1-Pad3)">
-      <node ref="A1" pin="3"/>
-      <node ref="J13" pin="2"/>
-    </net>
-    <net code="48" name="/GPIO24">
-      <node ref="A1" pin="14"/>
-      <node ref="A1" pin="13"/>
-      <node ref="P1" pin="18"/>
-    </net>
-    <net code="49" name="+12V">
-      <node ref="A1" pin="8"/>
-      <node ref="J3" pin="4"/>
-      <node ref="J3" pin="1"/>
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="50" name="/1-wire">
-      <node ref="P1" pin="7"/>
-    </net>
-    <net code="51" name="Net-(P1-Pad40)">
+    <net code="42" name="Net-(P1-Pad40)">
       <node ref="P1" pin="40"/>
     </net>
-    <net code="52" name="Net-(P1-Pad38)">
+    <net code="43" name="/1-wire">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="44" name="/UART_TX">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="45" name="+5V">
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="46" name="Net-(P1-Pad38)">
       <node ref="P1" pin="38"/>
     </net>
-    <net code="53" name="Net-(P1-Pad28)">
+    <net code="47" name="Net-(P1-Pad28)">
       <node ref="P1" pin="28"/>
     </net>
-    <net code="54" name="Net-(P1-Pad26)">
-      <node ref="P1" pin="26"/>
-    </net>
-    <net code="55" name="VCC">
+    <net code="48" name="VCC">
       <node ref="J3" pin="8"/>
       <node ref="J3" pin="5"/>
     </net>
-    <net code="56" name="Net-(P1-Pad23)">
+    <net code="49" name="+12V">
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="50" name="Net-(P1-Pad26)">
+      <node ref="P1" pin="26"/>
+    </net>
+    <net code="51" name="Net-(P1-Pad23)">
       <node ref="P1" pin="23"/>
     </net>
-    <net code="57" name="Net-(P1-Pad24)">
+    <net code="52" name="Net-(P1-Pad24)">
       <node ref="P1" pin="24"/>
     </net>
-    <net code="58" name="/SCL">
+    <net code="53" name="/SCL">
       <node ref="P1" pin="5"/>
     </net>
-    <net code="59" name="/SDA">
+    <net code="54" name="/SDA">
       <node ref="P1" pin="3"/>
     </net>
-    <net code="60" name="/UART_RX">
+    <net code="55" name="/UART_RX">
       <node ref="P1" pin="10"/>
     </net>
-    <net code="61" name="/UART_TX">
-      <node ref="P1" pin="8"/>
+    <net code="56" name="Net-(A1-Pad6)">
+      <node ref="J13" pin="4"/>
+      <node ref="A1" pin="6"/>
     </net>
-    <net code="62" name="Net-(J6-Pad1)">
-      <node ref="J9" pin="1"/>
-      <node ref="K3" pin="4"/>
-      <node ref="J6" pin="1"/>
+    <net code="57" name="Net-(A1-Pad5)">
+      <node ref="J13" pin="3"/>
+      <node ref="A1" pin="5"/>
     </net>
-    <net code="63" name="Net-(D3-Pad1)">
-      <node ref="K3" pin="3"/>
-      <node ref="D3" pin="1"/>
-      <node ref="Q3" pin="3"/>
-      <node ref="D7" pin="2"/>
+    <net code="58" name="/GPIO24">
+      <node ref="P1" pin="18"/>
+      <node ref="A1" pin="14"/>
+      <node ref="A1" pin="13"/>
     </net>
-    <net code="64" name="Net-(C3-Pad1)">
-      <node ref="D7" pin="1"/>
-      <node ref="K3" pin="2"/>
-      <node ref="R7" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U3" pin="2"/>
+    <net code="59" name="Net-(A1-Pad3)">
+      <node ref="J13" pin="2"/>
+      <node ref="A1" pin="3"/>
     </net>
-    <net code="65" name="Net-(K2-Pad5)">
-      <node ref="K2" pin="5"/>
+    <net code="60" name="Net-(A1-Pad4)">
+      <node ref="A1" pin="4"/>
+      <node ref="J13" pin="1"/>
     </net>
-    <net code="66" name="Net-(C2-Pad1)">
-      <node ref="K2" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="U2" pin="2"/>
+    <net code="61" name="Net-(J13-Pad9)">
+      <node ref="J13" pin="9"/>
     </net>
-    <net code="67" name="Net-(J6-Pad2)">
-      <node ref="K3" pin="1"/>
-      <node ref="J9" pin="2"/>
-      <node ref="J6" pin="2"/>
+    <net code="62" name="Net-(J13-Pad8)">
+      <node ref="J13" pin="8"/>
     </net>
-    <net code="68" name="Net-(Q2-Pad2)">
-      <node ref="Q2" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="R10" pin="1"/>
+    <net code="63" name="Net-(J13-Pad7)">
+      <node ref="J13" pin="7"/>
     </net>
-    <net code="69" name="Net-(D2-Pad1)">
-      <node ref="D6" pin="2"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="D2" pin="1"/>
-      <node ref="K2" pin="3"/>
+    <net code="64" name="Net-(J13-Pad6)">
+      <node ref="J13" pin="6"/>
     </net>
-    <net code="70" name="Net-(J11-Pad2)">
-      <node ref="J5" pin="2"/>
-      <node ref="J11" pin="2"/>
-      <node ref="K2" pin="1"/>
+    <net code="65" name="Net-(A1-Pad10)">
+      <node ref="J1" pin="2"/>
+      <node ref="A1" pin="10"/>
     </net>
-    <net code="71" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
+    <net code="66" name="Net-(A1-Pad12)">
+      <node ref="A1" pin="12"/>
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="67" name="Net-(A1-Pad11)">
+      <node ref="A1" pin="11"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D1-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D3-Pad2)">
       <node ref="R7" pin="2"/>
+      <node ref="D3" pin="2"/>
     </net>
-    <net code="72" name="/GPIO22">
-      <node ref="P1" pin="15"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="73" name="Net-(J11-Pad1)">
-      <node ref="J5" pin="1"/>
-      <node ref="K2" pin="4"/>
-      <node ref="J11" pin="1"/>
-    </net>
-    <net code="74" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
+    <net code="71" name="Net-(D2-Pad2)">
       <node ref="R6" pin="2"/>
-    </net>
-    <net code="75" name="/GPIO18">
-      <node ref="R2" pin="1"/>
-      <node ref="P1" pin="12"/>
+      <node ref="D2" pin="2"/>
     </net>
   </nets>
 </export>
