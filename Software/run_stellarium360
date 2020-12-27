@@ -1,3 +1,0 @@
-#!/bin/bash
-export SDL_VIDEO_X11_VISUALID=0x021
-stellarium360

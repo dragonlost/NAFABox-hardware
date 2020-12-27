@@ -2,7 +2,7 @@ from ina219 import INA219
 from ina219 import DeviceRangeError
 
 SHUNT_OHMS = 0.02  # ohm
-MAX_EXPECTED_AMPS = 7  # define max Amp
+MAX_EXPECTED_AMPS = 6  # define max Amp
 alim_1_i2c = 0x41
 alim_2_i2c = 0x49
 alim_3_i2c = 0x4d
@@ -17,9 +17,9 @@ def read(i2c_adress):
 
     :param i2c_adress: i2c adress for ina219
     :return:
-            volt in mV
-            amp in mA
-            watt in mW
+            volt in V
+            amp in A
+            watt in W
     """
     ina = INA219(SHUNT_OHMS, MAX_EXPECTED_AMPS, address=i2c_adress)
     ina.configure(ina.RANGE_16V)
@@ -37,4 +37,4 @@ def read(i2c_adress):
         # Current out of device range with specified shunt resistor
         print(e)
     ina.sleep()  # enter in low power mode
-    return volt, amp, watt
+    return volt, amp/1000, watt/1000

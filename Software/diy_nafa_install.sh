@@ -1,12 +1,13 @@
+#!/bin/bash -i
+
 # install package
 
-sudo apt-get install git
-sudo apt-get install python3-smbus  python3 python3-pip python3-testresources python3-setuptools
+sudo apt-get -y install git
+sudo apt-get -y install python3-smbus  python3 python3-pip python3-testresources python3-setuptools python3-ipython ipython3 
 
 # install python package :
 
 sudo pip3 install --upgrade setuptools
-pip3 install RPI.GIO
 pip3 install RPI.GPIO
 pip3 install adafruit-blinka
 pip3 install adafruit-pureio
@@ -16,8 +17,10 @@ pip3 install pi-ina219
 pip3 install pi1wire
 
 # install last wiring pi version (need for rpi4 and newer)
+cd ~/bin/
 git clone https://github.com/WiringPi/WiringPi
 cd WiringPi
+./build
 # verification
 gpio -v
 gpio readall
