@@ -3,4 +3,6 @@
   (lib (name PDQE15-Q24-S5-D)(type Legacy)(uri ${KIPRJMOD}/lib/pdq/PDQE15-Q24-S5-D.lib)(options "")(descr ""))
   (lib (name relais_hat-rescue)(type Legacy)(uri ${KIPRJMOD}/relais_hat-rescue.lib)(options "")(descr ""))
   (lib (name RELAY-HLS8L-DC3V-S-C_5P-19X15MM_)(type Legacy)(uri ${KIPRJMOD}/lib/relais/RELAY-HLS8L-DC3V-S-C_5P-19X15MM_.lib)(options "")(descr ""))
+  (lib (name UCC27324D)(type Legacy)(uri ${KIPRJMOD}/lib/UCC27324D/UCC27324D.lib)(options "")(descr ""))
+  (lib (name FDD8447L-F085)(type Legacy)(uri ${KIPRJMOD}/lib/FDD8447L/FDD8447L-F085.lib)(options "")(descr ""))
 )

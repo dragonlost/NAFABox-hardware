@@ -3,4 +3,6 @@
   (lib (name fuse)(type KiCad)(uri ${KIPRJMOD}/lib/fuse)(options "")(descr ""))
   (lib (name capa)(type KiCad)(uri ${KIPRJMOD}/lib/capa)(options "")(descr ""))
   (lib (name relais)(type KiCad)(uri ${KIPRJMOD}/lib/relais)(options "")(descr ""))
+  (lib (name FDD8447L)(type KiCad)(uri ${KIPRJMOD}/lib/FDD8447L)(options "")(descr ""))
+  (lib (name UCC27324D)(type KiCad)(uri ${KIPRJMOD}/lib/UCC27324D)(options "")(descr ""))
 )
