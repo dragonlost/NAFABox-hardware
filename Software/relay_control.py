@@ -1,33 +1,16 @@
-#!/bin/bash -i
+import os
 
-# for out 1 :
-gpio mode 0 out
-# ON
-gpio write 0 1
-# OFF
-gpio write 0 0
+gpio_out_1 = 0
+gpio_out_2 = 1
+gpio_out_3 = 3
+gpio_out_4 = 4
 
+bin_on = 1
+bin_off = 0
 
-# for out 2 : 
-gpio mode 1 out
-# ON
-gpio write 1 1
-# OFF
-gpio write 1 0
+def out_status(gpio_number,bin_stat):
+    # ON=1 / OFF=0
+    os.system('gpio mode '+str(gpio_number)+' out')
+    os.system('gpio write '+str(gpio_number)+' '+str(bin_stat))
 
-
-# for out 3 : 
-gpio mode 3 out
-# ON
-gpio write 3 1
-# OFF
-gpio write 3 0
-
-
-# for out 4 : 
-gpio mode 4 out
-# ON
-gpio write 4 1
-# OFF
-gpio write 4 0
-
+    return 1
