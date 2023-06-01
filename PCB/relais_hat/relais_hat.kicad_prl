@@ -36,6 +36,7 @@
       5,
       6,
       7,
+      8,
       9,
       10,
       11,
@@ -66,11 +67,11 @@
       39,
       40
     ],
-    "visible_layers": "0029030_80000001",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "base_hat.kicad_prl",
+    "filename": "relais_hat.kicad_prl",
     "version": 3
   },
   "project": {
