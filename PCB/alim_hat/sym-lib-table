@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name alim_hate-rescue)(type Legacy)(uri ${KIPRJMOD}/alim_hate-rescue.lib)(options "")(descr ""))
-  (lib (name PDQE15-Q24-S5-D)(type Legacy)(uri ${KIPRJMOD}/lib/pdq/PDQE15-Q24-S5-D.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "alim_hate-rescue")(type "Legacy")(uri "${KIPRJMOD}/alim_hate-rescue.lib")(options "")(descr ""))
+  (lib (name "PDQE15-Q24-S5-D")(type "Legacy")(uri "${KIPRJMOD}/lib/pdq/PDQE15-Q24-S5-D.lib")(options "")(descr ""))
+  (lib (name "alim_hat-rescue")(type "KiCad")(uri "${KIPRJMOD}/alim_hat-rescue.kicad_sym")(options "")(descr ""))
 )
