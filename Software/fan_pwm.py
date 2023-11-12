@@ -58,7 +58,10 @@ try:
                                          / (tempSteps[i + 1] - tempSteps[i])
                                          * (cpuTemp - tempSteps[i])
                                          + speedSteps[i], 1)
-
+            
+            file = open('/tmp/fanspeed.log', 'w')
+            file.write(str(fanSpeed))
+            file.close()
             if fanSpeed != fanSpeedOld:
                 if (fanSpeed != fanSpeedOld
                         and (fanSpeed >= FAN_MIN or fanSpeed == 0)):
