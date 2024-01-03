@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from ina219 import INA219
 from ina219 import DeviceRangeError
 
@@ -38,3 +39,13 @@ def read(i2c_adress):
         print(e)
     ina.sleep()  # enter in low power mode
     return volt, amp/1000, watt/1000
+
+if __name__ == "__main__":
+	list = [ alim_1_i2c, alim_2_i2c, alim_3_i2c, alim_4_i2c, res_1_i2c, res_2_i2c]
+	for ina in list:
+		(volt,amp,watt) = read(ina)
+		print("INA:", ina)
+		print(f"\tvolt={volt:.3f} V")
+		print(f"\tamp={amp:.3f} A")
+		print(f"\twatt={watt:.3f} W")
+
